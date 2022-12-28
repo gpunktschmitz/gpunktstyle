@@ -1,0 +1,205 @@
+/* ==UserStyle==
+@name         My style for the www
+@namespace    https://github.com/gpunktschmitz
+@version      0.8.1
+@description  My style for the www
+@author       Guenther Schmitz
+
+==/UserStyle== */
+@-moz-document domain("1blu.de") {
+body.glightbox-open>div#glightbox-body {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.glightbox-open {
+    overflow: unset !important;
+}
+}
+
+@-moz-document domain("1und1.de") {
+div#consentOverlay,div.consent-manager {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("amazon.de") {
+span[data-action="sp-cc"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("archive.org") {
+header#donate_banner{
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("df.eu") {
+div.ReactModalPortal {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body.ReactModal__Body--open {
+    overflow: unset !important;
+}
+}
+
+@-moz-document domain("ebay.de") {
+div#gdpr-banner {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("ebay-kleinanzeigen.de") {
+div#consentBanner, div.login-overlay, div#liberty-my_ads-top-banner, div#liberty-home-billboard, section#home-gallery, div#brws_banner-supersize, div.srp-header, div.j-zsrp-infobox {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("feedly.com") {
+div.TopHeaderBar__actions {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("goneo.de") {
+div#consent {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("heise.de") {
+.sp-message-open body {
+    overflow-y: scroll !important;
+    position: relative !important;
+}
+
+div[id^="sp_message_container_"], div.a-layout__container.a-layout__container--full-width, div.header-logo__plus-group, section[data-component="MarketingTeaserModule"], div[data-upscore-zone^="homepage_teaser_list"], a-sticky-footer, article[data-component="TeaserContainer"]:has(footer):has(svg[preserveAspectRatio]), section.article-sidebar, article#meldung>div>aside, div.a-layout:has(div.stage--heiseplus), div[data-component="RecommendationBox"], a-img[src="/Magazin-Banner/ct_desktop.jpg"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+article#meldung, article#meldung>div>header, div[class^="article-layout__"]{
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.sp-message-open .topnavigation-menu, .sp-message-open .topnavigation-search {
+    display: block
+}
+}
+
+@-moz-document domain("hetzner.com") {
+div#CookieConsent, div.modal-backdrop {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body.modal-open {
+    padding: 0 !important;
+    overflow: scroll !important;
+}
+}
+
+@-moz-document domain("getpocket.com") {
+#__next>div:nth-child(2), #__next>div:first-child {
+    height: 0 !important;
+    display:none !important;
+}
+}
+
+@-moz-document domain("ionos.de") {
+body.privacy-consent--active {
+    overflow: scroll !important;
+}
+
+div.privacy-consent--modal, div.privacy-consent--backdrop {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("microsoft.com") {
+div#uhfCookieAlert,div#rail-column,div#ocFooterWrapper,div#supWrapperToPreventFeedbackFlickering {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("stackoverflow.com"), domain("superuser.com"), domain("stackexchange.com") {
+div#divQuestionFollowFeaturePopover,div#onetrust-banner-sdk,div#left-sidebar,div#sidebar,div.js-dismissable-hero {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+div#mainbar {
+    width: 100% !important;
+}
+}
+
+@-moz-document domain("strato.de") {
+div.consent, div.modal-backdrop, div#cookie_initial_modal {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body.noscroll,body.modal-open {
+    overflow: unset !important;
+}
+}
+
+@-moz-document domain("tobii.com") {
+div[class^="CookieConsent"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("toot.cafe") {
+div.account__relationship .fa-plus, .fa-user-plus {
+    color: #83ae83;
+}
+
+div.account__relationship .fa-times, .fa-user-times {
+    color: #ae8483 !important;
+}
+
+article:has(.poll) div.status__wrapper {
+    visibility:hidden!important;
+    display:none!important;
+}
+
+/* replace button "Publish!" with custom text
+source: https://github.com/mastodon/mastodon/issues/20751#issuecomment-1315329065*/
+.compose-form__publish-button-wrapper button, .ui__header__links .button {
+  text-indent: -9999px;
+  line-height: 0; /* Collapse the original line */
+}
+
+.compose-form__publish-button-wrapper button:after, .ui__header__links .button:after {
+  content:'🐘'; 
+  text-indent: 0;
+  display: block;
+  line-height: initial; /* New content takes up original line height */
+}
+}
+
+@-moz-document domain("wikipedia.org") {
+#mw-head, #mw-page-base {
+    padding-top: 0!important;
+    top: 0!important;
+}
+
+#centralNotice {
+    display:none;
+}
+}
