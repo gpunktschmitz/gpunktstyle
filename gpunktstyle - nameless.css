@@ -1,0 +1,21 @@
+/* ==UserStyle==
+@name         gpunktstyle - nameless
+@namespace    https://github.com/gpunktschmitz
+@version      0.5.3
+@description  removes name, username, address, email from websites 
+@author       Guenther Schmitz
+
+==/UserStyle== */
+@-moz-document domain("amazon.de") {
+div[data-cel-widget="typ-shippingToDestination"],a[data-action="a-checkout-modal-popover"],.displayAddressFullName,.displayAddressAddressLine2,.displayAddressUL,span.pmts-address-field,#wlp-dynamic-asset-subheading,.mcx-profile__name,a#nav-your-amazon,span[id^="nav-link-accountList-nav-line"],div#glow-ingress-block, div#primary-label-action-completed-section>div>div>div.a-section.a-spacing-small.a-text-left{
+    display: none;
+    visibility: hidden;
+}
+}
+
+@-moz-document domain("paypal.de") {
+div[class^="SingleShippingAddress_container"],button[class^="HeaderWithProfilePhoto_buttonProfile"] {
+    display: none;
+    visibility: hidden;
+}
+}
