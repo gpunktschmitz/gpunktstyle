@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.8.4
+@version      0.8.5
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -197,7 +197,7 @@ source: https://github.com/mastodon/mastodon/issues/20751#issuecomment-131532906
 }
 
 @-moz-document domain("wikipedia.org") {
-#mw-head, #mw-page-base {
+#mw-head, #mw-panel, #mw-page-base {
     padding-top: 0!important;
     top: 0!important;
 }
