@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.8.5
+@version      0.8.6
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -25,7 +25,7 @@ div#consentOverlay,div.consent-manager {
 }
 
 @-moz-document domain("amazon.de") {
-span[data-action="sp-cc"] {
+span[data-action="sp-cc"], #cbcc_banner, div[id^="smart-wagon-recommendations"], div[role^="complementary"], #navFooter {
     display: none !important;
     visibility: hidden !important;
 }
@@ -113,13 +113,6 @@ body.modal-open {
 }
 }
 
-@-moz-document domain("getpocket.com") {
-#__next>div:nth-child(2), #__next>div:first-child {
-    height: 0 !important;
-    display:none !important;
-}
-}
-
 @-moz-document domain("ionos.de") {
 body.privacy-consent--active {
     overflow: scroll !important;
@@ -197,7 +190,7 @@ source: https://github.com/mastodon/mastodon/issues/20751#issuecomment-131532906
 }
 
 @-moz-document domain("wikipedia.org") {
-#mw-head, #mw-panel, #mw-page-base {
+#mw-head, #mw-page-base {
     padding-top: 0!important;
     top: 0!important;
 }
