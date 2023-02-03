@@ -167,13 +167,17 @@ body.noscroll,body.modal-open {
 }
 
 @-moz-document domain("stuttgarter-zeitung.de") {
-div[data-b-title*="Ad Weekli"],div.statichtml,div.anzeige,div.eigenproduktbox,div[data-lt="pos_stzplus"],div.item :has(span.paid-icon),#traffective-ad-Billboard ,#panoramaBanderole, div.mod-sidebar {
+#panoramaBanderole,div.statichtml,div[data-b-title*="Ad Weekli Prospekte"],div[data-lt="pos_stzplus"],div.eigenproduktbox,div.anzeige,#article-social-bar,div.sharewrapper,div.articleTeaser.recoTeaser,#traffective-ad-Billboard, div.brick:has(div.survey),div.mod-sidebar,div.content:has(a[data-paidcontent="true"]),div.item:has(a[data-paidcontent="true"]),a[data-paidcontent="true"]{
     visibility: hidden !important;
     display: none !important;
 }
 
 [data-layout="desktop"] [data-layout-desktop*="w8-"] {
     width: 100%;
+}
+
+div.appetizer-text>span {
+    margin-left: 1em;
 }
 }
 
