@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.9.1
+@version      0.9.2
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -141,6 +141,13 @@ div.privacy-consent--modal, div.privacy-consent--backdrop {
 div#uhfCookieAlert,div#rail-column,div#ocFooterWrapper,div#supWrapperToPreventFeedbackFlickering {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("learn.microsoft.com") {
+#survey-popover {
+    visibility: hidden !important;
+    display: none !important;
 }
 }
 
