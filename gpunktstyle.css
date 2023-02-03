@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.8.8
+@version      0.8.9
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -157,6 +157,17 @@ div.consent, div.modal-backdrop, div#cookie_initial_modal {
 
 body.noscroll,body.modal-open {
     overflow: unset !important;
+}
+}
+
+@-moz-document domain("stuttgarter-zeitung.de") {
+div[data-b-title*="Ad Weekli"],div.statichtml,div.anzeige,div.eigenproduktbox,div[data-lt="pos_stzplus"],div.item :has(span.paid-icon),#traffective-ad-Billboard ,#panoramaBanderole, div.mod-sidebar {
+    visibility: hidden !important;
+    display: none !important;
+}
+
+[data-layout="desktop"] [data-layout-desktop*="w8-"] {
+    width: 100%;
 }
 }
 
