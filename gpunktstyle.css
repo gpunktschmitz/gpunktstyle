@@ -1,11 +1,17 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.8.9
+@version      0.9.0
 @description  My style for the www
 @author       Guenther Schmitz
 
 ==/UserStyle== */
+@-moz-document regexp(".*") {
+body, :root.ccm-blocked, body.ccm-blocked {
+    overflow: visible !important;
+}
+}
+
 @-moz-document domain("1blu.de") {
 body.glightbox-open>div#glightbox-body {
     display: none !important;
