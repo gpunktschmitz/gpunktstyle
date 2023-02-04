@@ -151,6 +151,13 @@ div#uhfCookieAlert,div#rail-column,div#ocFooterWrapper,div#supWrapperToPreventFe
 }
 }
 
+@-moz-document domain("norisbank.de") {
+div.aem-wrapper {
+    visibility: hidden !important;
+    display: none !important;
+}
+}
+
 @-moz-document domain("stackoverflow.com"), domain("superuser.com"), domain("stackexchange.com") {
 div#divQuestionFollowFeaturePopover,div#onetrust-banner-sdk,div#left-sidebar,div#sidebar,div.js-dismissable-hero {
     display: none !important;
