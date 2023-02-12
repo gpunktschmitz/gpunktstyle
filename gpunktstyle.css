@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.9.4
+@version      0.9.5
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -99,12 +99,12 @@ div#consent {
     position: relative !important;
 }
 
-a-opt-in[type="Preisvergleichinternetservices"],a[href="/plus"],.branding, div[id^="sp_message_container_"], div.a-layout__container.a-layout__container--full-width, div.header-logo__plus-group, section[data-component="MarketingTeaserModule"], div[data-upscore-zone^="homepage_teaser_list"], a-sticky-footer, article[data-component="TeaserContainer"]:has(footer):has(svg[preserveAspectRatio]), section.article-sidebar, article#meldung>div>aside, div.a-layout:has(div.stage--heiseplus), div[data-component="RecommendationBox"], a-img[src="/Magazin-Banner/ct_desktop.jpg"] {
+.a-layout__sidebar, a-opt-in[type="Preisvergleichinternetservices"],a[href="/plus"], .branding, div[id^="sp_message_container_"], div.a-layout__container.a-layout__container--full-width, div.header-logo__plus-group, section[data-component="MarketingTeaserModule"], div[data-upscore-zone^="homepage_teaser_list"], a-sticky-footer, article[data-component="TeaserContainer"]:has(footer):has(svg[preserveAspectRatio]), section.article-sidebar, article#meldung>div>aside, div.a-layout:has(div.stage--heiseplus), div[data-component="RecommendationBox"], a-img[src="/Magazin-Banner/ct_desktop.jpg"] {
     display: none !important;
     visibility: hidden !important;
 }
 
-article#meldung, article#meldung>div>header, div[class^="article-layout__"]{
+div.a-layout__main, article#meldung, article#meldung>div>header, div[class^="article-layout__"]{
     width: 100% !important;
     max-width: 100% !important;
 }
