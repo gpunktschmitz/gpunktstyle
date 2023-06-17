@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.12.1
+@version      0.12.2
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -291,8 +291,9 @@ html {
 }
 
 @-moz-document domain("userstyles.world") {
-#preview {
+section#preview>div.card {
     width: 50%;
+    margin: auto;
 }
 }
 
