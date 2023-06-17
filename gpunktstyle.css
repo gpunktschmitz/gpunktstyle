@@ -209,6 +209,12 @@ div.appetizer-text>span {
 }
 }
 
+@-moz-document domain("thelazyadministrator.com") {
+div.site-header {
+    height: 40px;
+}
+}
+
 @-moz-document domain("tobii.com") {
 div[class^="CookieConsent"] {
     display: none !important;
