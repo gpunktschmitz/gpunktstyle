@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.11.0
+@version      0.11.1
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -138,7 +138,7 @@ html {
 }
 
 @-moz-document domain("microsoft.com") {
-div#uhfCookieAlert,div#rail-column,div#ocFooterWrapper,div#supWrapperToPreventFeedbackFlickering {
+div[role=alertdialog],div#uhfCookieAlert,div#rail-column,div#ocFooterWrapper,div#supWrapperToPreventFeedbackFlickering {
     display: none !important;
     visibility: hidden !important;
 }
