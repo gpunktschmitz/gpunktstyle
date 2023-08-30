@@ -137,6 +137,13 @@ html {
 }
 }
 
+@-moz-document domain("komoot.com") {
+.ReactModalPortal,.ReactModal__Overlay,.ReactModal__Overlay--after-open {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
 @-moz-document domain("microsoft.com") {
 div[role=alertdialog],div#uhfCookieAlert,div#rail-column,div#ocFooterWrapper,div#supWrapperToPreventFeedbackFlickering {
     display: none !important;
