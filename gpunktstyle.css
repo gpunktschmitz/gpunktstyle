@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.13.0
+@version      0.14.0
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -187,6 +187,26 @@ div#divQuestionFollowFeaturePopover,div#onetrust-banner-sdk,div#left-sidebar,div
 
 div#mainbar {
     width: 100% !important;
+}
+}
+
+@-moz-document domain("stadt-bremerhaven.de") {
+#nav-topbar, .social-links, .sidebar-content, .post-byline, .aawp, .aawp-disclaimer, h2, #shr-btns, .author-bio, .post-nav.group, .recent-posts__heading, .recent-posts, #comments, .comment-abo, footer {
+    visibility: hidden !important;
+    display: none !important;
+}
+
+.col-2cl .main-inner {
+    padding-right: 0;
+    background: none;
+}
+
+img.aligncenter {
+    max-width: 33rem;
+}
+
+article {
+    padding-bottom: 13rem;
 }
 }
 
