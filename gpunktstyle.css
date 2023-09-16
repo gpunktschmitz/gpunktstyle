@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.14.0
+@version      0.14.1
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -180,7 +180,7 @@ div.pencraft, div[class^="frontend-components-SubscribePrompt-module__background
 }
 
 @-moz-document domain("stackoverflow.com"), domain("superuser.com"), domain("stackexchange.com") {
-div#divQuestionFollowFeaturePopover,div#onetrust-banner-sdk,div#left-sidebar,div#sidebar,div.js-dismissable-hero {
+div#js-ai-search-alpha-popover,div#divQuestionFollowFeaturePopover,div#onetrust-banner-sdk,div#left-sidebar,div#sidebar,div.js-dismissable-hero {
     display: none !important;
     visibility: hidden !important;
 }
