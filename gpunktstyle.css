@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.14.5
+@version      0.14.6
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -267,6 +267,21 @@ div.site-header {
 div[class^="CookieConsent"] {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("todoist.com") {
+div.board_task:has(button.priority_4) {
+    background-color: #ff000017;
+}
+div.board_task:has(button.priority_3) {
+    background-color: #ffae0033;
+}
+div.board_task:has(button.priority_2) {
+    background-color: #ddff0026;
+}
+div.board_task:has(button.priority_1) {
+    background-color: #2bff0017;
 }
 }
 
