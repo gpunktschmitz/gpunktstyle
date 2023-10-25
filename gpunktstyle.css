@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.14.6
+@version      0.14.7
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -163,8 +163,19 @@ div.ui-widget-overlay, div.lia-panel-dialog-modal-valuesurvey {
     display: none !important;
     visibility: hidden !important;
 }
-
 }
+
+@-moz-document domain("nordbayern.de"), domain("nn.de") {
+section.modul--newslist, section.article__comments, div.icon__social, div:has(> div#ad-Billboard) {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+footer {
+    margin-top: 6rem;
+}
+}
+
 @-moz-document domain("norisbank.de") {
 div.aem-wrapper {
     visibility: hidden !important;
