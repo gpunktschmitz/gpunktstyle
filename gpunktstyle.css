@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.16.1
+@version      0.17.0
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -213,6 +213,18 @@ div[role=alertdialog],div#uhfCookieAlert,div#rail-column,div#ocFooterWrapper,div
 div.ui-widget-overlay, div.lia-panel-dialog-modal-valuesurvey {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("techstage.de") {
+iframe, footer, .heise-ad-element-wrapper, .noAnzeige, .ring-simple-menu--wrapper, .ring-widget-right, .ring-widget {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body {
+    background-color: white;
+    padding-bottom: 14rem;
 }
 }
 
