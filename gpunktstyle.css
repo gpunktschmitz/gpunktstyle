@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.15.0
+@version      0.16.0
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -74,6 +74,31 @@ div#marketing, div#widget-rightUpsellSlot, div#maple-smart-wagon-full-page, div#
 header#donate_banner{
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("cnet.com") {
+div.c-articleLinkBlock, div.c-shortcodeVideoInline, div.c-shortcodeGallery, div.c-avStickyVideo, div.modal-backdrop.show,div.modal.show, div.newsletter-subscribe-form {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body.scrollBar-0px {
+    --scrollbar-width: unset !important;
+    overflow-y: visible !important;
+}
+
+.c-pageArticle_body.lg\:u-col-6, .c-articleHeader.lg\:u-col-6 {
+    grid-column-end: span 9;
+}
+
+.c-pageArticleHero.lg\:u-col-8 {
+    grid-column-start: 2;
+}
+
+/*add a lot of space so the next article wont be loaded automatically*/
+div.c-pageArticle_content {
+    padding-bottom: 224rem;
 }
 }
 
