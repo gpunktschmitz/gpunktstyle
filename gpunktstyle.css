@@ -217,7 +217,7 @@ div.ui-widget-overlay, div.lia-panel-dialog-modal-valuesurvey {
 }
 
 @-moz-document domain("nordbayern.de"), domain("nn.de") {
-section.modul--newslist, section.article__comments, div.icon__social, div:has(> div#ad-Billboard) {
+section.modul--newslist, div:has(> div#ad-Billboard), section.article__linkbox, section.article__comments, div.icon__social, blockquote.instagram-media, #ref_comments, #social_toolbar{
     display: none !important;
     visibility: hidden !important;
 }
