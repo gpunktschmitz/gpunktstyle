@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.17.1
+@version      0.17.2
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -440,7 +440,8 @@ section#preview>div.card {
     top: 0!important;
 }
 
-#centralNotice {
-    display:none;
+#wmde-banner-app, #wmde-banner, #centralNotice {
+    display: none;
+    visibility: hidden;
 }
 }
