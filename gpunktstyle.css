@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.14.8
+@version      0.15.0
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -27,6 +27,32 @@ body.glightbox-open>div#glightbox-body {
 div#consentOverlay,div.consent-manager {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("adamtheautomator.com") {
+body > header, div > header > div > div :not(h1), body > div > div > div, #mailchimp-top-bar, div.ns-buttons-wrapper, blockquote.wp-block-quote, div.flex-col.items-center.justify-self-center, .article__footer, footer {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+header {
+    top: 0 !important;
+    height: 5rem !important;
+}
+
+header > div {
+    height: 0 !important;
+    margin-top: 0 !important;
+}
+
+header, .border-slate-300, .border-b {
+    border: none !important;
+
+}
+
+body {
+    padding-bottom: 23rem;
 }
 }
 
