@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.17.0
+@version      0.17.1
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -332,8 +332,21 @@ div.copytext-element-wrapper, nav.socialbuttons {
 }
 
 @-moz-document domain("thelazyadministrator.com") {
-div.site-header {
-    height: 40px;
+footer, .saboxplugin-wrap, .post-navigation, .post-comments, #secondary {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+#primary {
+    width: 100%;
+}
+
+body {
+    margin-bottom: 23em;
+}
+
+.site-header {
+    margin-bottom: 0;
 }
 }
 
