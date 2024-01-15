@@ -195,7 +195,7 @@ html {
 }
 }
 
-@-moz-document url-prefix("https://www.msn.com") {
+@-moz-document domain("msn.com") {
 div[id^="WeatherRightRail"],iframe,div[class^="feedbackRow"],div[class^="weatherWatcherBannerWrapper"],div[class^="neighborObserverV2"],.background-DS-EntryPoint1-2,#WeatherInsightsSection-ScreenWidthServerWeather-c4,
 #WeatherInsightsSection-ScreenWidth-c4,
 .floatButton-DS-EntryPoint1-1,
