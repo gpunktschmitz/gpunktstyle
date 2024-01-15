@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.18.0
+@version      0.19.0
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -192,6 +192,46 @@ html {
 .ReactModalPortal,.ReactModal__Overlay,.ReactModal__Overlay--after-open {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document url-prefix("https://www.msn.com") {
+div[id^="WeatherRightRail"],iframe,div[class^="feedbackRow"],div[class^="weatherWatcherBannerWrapper"],div[class^="neighborObserverV2"],.background-DS-EntryPoint1-2,#WeatherInsightsSection-ScreenWidthServerWeather-c4,
+#WeatherInsightsSection-ScreenWidth-c4,
+.floatButton-DS-EntryPoint1-1,
+.mobileAppPromotion-DS-EntryPoint1-1,
+.newsContent-DS-EntryPoint1-1,
+#header {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.windows-header .content-DS-EntryPoint1-1::before {
+    height: 0;
+}
+
+.windows-header .content-DS-EntryPoint1-1 {
+    margin-top: 0;
+}
+
+#WeatherOverviewV2-ScreenWidth-c4,
+#WeatherOverviewV2-ScreenWidthServerWeather-c4 {
+    grid-area: 1 / 1 / 2 / 5 !important;
+}
+
+#weatherMiniMapContainer,
+#WeatherMapMini-ScreenWidth-c3,
+#WeatherMapMini-ScreenWidthServerWeather-c4,
+#WeatherMapMini-ScreenWidth-c4 {
+    grid-area: 1 / 3 / 2 / 5 !important;
+}
+
+.weatherOverview_root-DS-EntryPoint1-1.size1uCard {
+    width: unset;
+}
+
+.summaryCardShowAnimation-DS-EntryPoint1-1 {
+    margin-top: 0px;
 }
 }
 
