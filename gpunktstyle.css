@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.20.0
+@version      0.21.0
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -273,6 +273,14 @@ body {
     background-color: white;
     padding-bottom: 14rem;
 }
+}
+
+@-moz-document domain("app.todoist.com") {
+nav>div>div>div>button>div>div>div>div>svg, div[data-testid="popper__overlay"].popper, button[data-testid="upgrade-button-top-bar"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+
 }
 
 @-moz-document domain("nordbayern.de"), domain("nn.de") {
