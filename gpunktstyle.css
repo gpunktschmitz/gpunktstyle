@@ -275,14 +275,6 @@ body {
 }
 }
 
-@-moz-document domain("app.todoist.com") {
-nav>div>div>div>button>div>div>div>div>svg, div[data-testid="popper__overlay"].popper, button[data-testid="upgrade-button-top-bar"] {
-    display: none !important;
-    visibility: hidden !important;
-}
-
-}
-
 @-moz-document domain("nordbayern.de"), domain("nn.de") {
 section.modul--newslist, div:has(> div#ad-Billboard), section.article__linkbox, section.article__comments, div.icon__social, blockquote.instagram-media, #ref_comments, #social_toolbar{
     display: none !important;
@@ -413,6 +405,11 @@ div[class^="CookieConsent"] {
 }
 
 @-moz-document domain("todoist.com") {
+nav>div>div>div>button>div>div>div>div>svg, div[data-testid="popper__overlay"].popper, button[data-testid="upgrade-button-top-bar"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+
 div.board_task:has(button.priority_4) {
     background-color: #ff000017;
 }
