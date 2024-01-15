@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.19.0
+@version      0.20.0
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -246,6 +246,13 @@ div[role=alertdialog],div#uhfCookieAlert,div#rail-column,div#ocFooterWrapper,div
 #survey-popover {
     visibility: hidden !important;
     display: none !important;
+}
+}
+
+@-moz-document domain("outlook.office.com") {
+div.GSVDf {
+    display: none !important;
+    visibility: hidden !important;
 }
 }
 
