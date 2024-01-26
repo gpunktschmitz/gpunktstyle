@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.26.0
+@version      0.27.0
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -554,5 +554,11 @@ section#preview>div.card {
 #wmde-banner-app, #wmde-banner, #centralNotice {
     display: none;
     visibility: hidden;
+}
+}
+
+@-moz-document domain("youtube.com") {
+ytd-rich-section-renderer {
+    display: none;
 }
 }
