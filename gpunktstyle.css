@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.21.1
+@version      0.21.2
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -201,7 +201,8 @@ div[id^="WeatherRightRail"],iframe,div[class^="feedbackRow"],div[class^="weather
 .floatButton-DS-EntryPoint1-1,
 .mobileAppPromotion-DS-EntryPoint1-1,
 .newsContent-DS-EntryPoint1-1,
-#header {
+#header,
+div#m-locs>div[class^="BubbleMessageContainer"] {
     display: none !important;
     visibility: hidden !important;
 }
