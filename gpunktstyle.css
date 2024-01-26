@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.21.3
+@version      0.22.0
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -129,6 +129,13 @@ div#gdpr-banner {
 .css-9tbi1t {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("github.com") {
+button[data-testid="copilot-popover-button"],.signup-prompt-bg {
+    display:none!important;
+    visibility:hidden!important;
 }
 }
 
