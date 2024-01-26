@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.21.2
+@version      0.21.3
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -9,6 +9,11 @@
 @-moz-document regexp(".*") {
 body, :root.ccm-blocked, body.ccm-blocked {
     overflow: visible !important;
+}
+
+.snowflakes {
+    display: none !important;
+    visibility: hidden !important;
 }
 }
 
