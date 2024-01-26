@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.27.0
+@version      0.27.1
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -480,6 +480,10 @@ div.board_task:has(button.priority_2) {
 }
 div.board_task:has(button.priority_1) {
     background-color: #2bff0017;
+}
+
+.task_list_item .task_list_item__actions a, .task_list_item .task_list_item__actions button:not([aria-expanded="true"]):not(.task_list_item__person_picker--assigned) {
+    opacity: 1;
 }
 }
 
