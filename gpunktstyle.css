@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.24.1
+@version      0.25.0
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -144,6 +144,13 @@ div.text_promo.header--text_promo,div.zcm--right.js-zcm-right,div.header--aside_
 
 @-moz-document domain("ebay.de") {
 div#gdpr-banner {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("kundencenter.fio.de") {
+#brokerage-agreement {
     display: none !important;
     visibility: hidden !important;
 }
