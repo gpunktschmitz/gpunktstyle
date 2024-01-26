@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.22.0
+@version      0.23.0
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -115,6 +115,13 @@ div.ReactModalPortal {
 
 body.ReactModal__Body--open {
     overflow: unset !important;
+}
+}
+
+@-moz-document domain("duckduckgo.com") {
+div.text_promo.header--text_promo,div.zcm--right.js-zcm-right,div.header--aside__item.showcase,p[class^="tagline_tagline"] {
+    display: none !important;
+    visibility: hidden !important;
 }
 }
 
