@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.24.0
+@version      0.24.1
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -69,7 +69,7 @@ div[class^="AdsenseAd"] {
 }
 
 @-moz-document domain("amazon.de") {
-div#marketing, div#widget-rightUpsellSlot, div#maple-smart-wagon-full-page, div#issuancePriceblockAmabot_feature_div, div#sc-new-upsell,span[data-action="sp-cc"], #cbcc_banner, div[id^="smart-wagon-recommendations"], div[role^="complementary"], #navFooter {
+.maple-banner,div#marketing, div#widget-rightUpsellSlot, div#maple-smart-wagon-full-page, div#issuancePriceblockAmabot_feature_div, div#sc-new-upsell,span[data-action="sp-cc"], #cbcc_banner, div[id^="smart-wagon-recommendations"], div[role^="complementary"], #navFooter {
     display: none !important;
     visibility: hidden !important;
 }
