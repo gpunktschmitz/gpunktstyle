@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.23.0
+@version      0.24.0
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -77,6 +77,13 @@ div#marketing, div#widget-rightUpsellSlot, div#maple-smart-wagon-full-page, div#
 
 @-moz-document domain("archive.org") {
 header#donate_banner{
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("chip.de") {
+iframe, aside, .Article__Promo, div#video-widget, section.ArticleRecommendation, footer {
     display: none !important;
     visibility: hidden !important;
 }
