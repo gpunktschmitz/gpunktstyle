@@ -118,6 +118,16 @@ body.ReactModal__Body--open {
 }
 }
 
+@-moz-document domain("dropbox.com") {
+div.global-header__utilities div.prompt-header-link--preview,
+section.home-access-section-suggest-nonempty,
+div.dig-Overlay.dig-Tooltip,
+div.ReactModal__Overlay--after-open {
+    display: none;
+    visibility: hidden;
+}
+}
+
 @-moz-document domain("duckduckgo.com") {
 div.text_promo.header--text_promo,div.zcm--right.js-zcm-right,div.header--aside__item.showcase,p[class^="tagline_tagline"] {
     display: none !important;
