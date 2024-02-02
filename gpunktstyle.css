@@ -12,12 +12,7 @@ body, :root.ccm-blocked, body.ccm-blocked {
     overflow: visible !important;
 }
 
-iframe[src^="https://accounts.google.com/gsi/iframe/select?client_id="] {
-    display: none !important;
-    visibility: hidden !important;
-}
-
-.snowflakes {
+iframe[src^="https://accounts.google.com/gsi/iframe/select?client_id="], .snowflakes {
     display: none !important;
     visibility: hidden !important;
 }
