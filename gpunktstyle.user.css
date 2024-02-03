@@ -1,10 +1,10 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.28.0
+@version      0.28.1
 @description  My style for the www
 @author       Guenther Schmitz
-
+@updateURL    https://github.com/gpunktschmitz/gpunktstyle/blob/main/gpunktstyle.user.css
 ==/UserStyle== */
 @-moz-document regexp(".*") {
 body, :root.ccm-blocked, body.ccm-blocked {
