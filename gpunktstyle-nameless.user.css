@@ -1,11 +1,16 @@
 /* ==UserStyle==
-@name         gpunktstyle - nameless
-@namespace    https://github.com/gpunktschmitz
-@version      0.5.7
-@description  removes name, username, address, email from websites
-@author       Guenther Schmitz
-@updateURL    https://github.com/gpunktschmitz/gpunktstyle/blob/main/gpunktstyle-nameless.user.css
+@name           gpunktstyle
+@version        0.28.2
+@namespace      https://github.com/gpunktschmitz
+@preprocessor   stylus
+@description    My style for the www
+@author         Guenther Schmitz
+@updateURL      https://github.com/gpunktschmitz/gpunktstyle/blob/main/gpunktstyle.user.css
+@homepageURL    https://github.com/gpunktschmitz/gpunktstyle
+@supportURL     https://github.com/gpunktschmitz/gpunktstyle/issues
+@license        CC0-1.0
 ==/UserStyle== */
+
 @-moz-document domain("amazon.de") {
 div.auth-prompt-profile-details,div[cel_widget_id="typ-shippingToDestination"],a[data-action="a-checkout-modal-popover"],.displayAddressFullName,.displayAddressAddressLine2,.displayAddressUL,span.pmts-address-field,#wlp-dynamic-asset-subheading,.mcx-profile__name,a#nav-your-amazon,span[id^="nav-link-accountList-nav-line"],div#glow-ingress-block, div#primary-label-action-completed-section>div>div>div.a-section.a-spacing-small.a-text-left,div.prime-ad-banner-content{
     display: none;
