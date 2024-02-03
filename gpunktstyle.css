@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         gpunktstyle
 @namespace    https://github.com/gpunktschmitz
-@version      0.27.5
+@version      0.28.0
 @description  My style for the www
 @author       Guenther Schmitz
 
@@ -345,6 +345,21 @@ body {
 div[id^="CoachTip"],section#pay-later,div[class^="GiveAtCheckout"] {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("pcmag.com") {
+aside, footer, div#app>div.bg-gray-100, div#author-byline div.items-end, div[x-data="window.newsletters()"], section[data-parent-group="dig-deeper"], div[data-parent-group="author-bio"], section[x-data="window.bibblioRecirculation()"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+main>section>div>div, header#content-header, article>p {
+    max-width: 100% !important;
+}
+
+div#app {
+    padding-bottom: 20%;
 }
 }
 
