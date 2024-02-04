@@ -148,7 +148,7 @@ div.text_promo.header--text_promo,div.zcm--right.js-zcm-right,div.header--aside_
 }
 
 @-moz-document domain("ebay.de") {
-div#gdpr-banner {
+div#gdpr-banner, div.bos-items__loader {
     display: none !important;
     visibility: hidden !important;
 }
