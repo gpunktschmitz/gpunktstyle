@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.28.5
+@version        0.28.6
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -313,7 +313,7 @@ div.ui-widget-overlay, div.lia-panel-dialog-modal-valuesurvey {
 }
 
 @-moz-document domain("techstage.de") {
-iframe, footer, .heise-ad-element-wrapper, .noAnzeige, .ring-simple-menu--wrapper, .ring-widget-right, .ring-widget {
+iframe, footer, header, div.breadcrumbs-widget, div.taxonomies, div.heise-affiliate-info, div.heise-more-like-this, div.more-like-this-wrapper, .heise-ad-element-wrapper, .noAnzeige, .ring-simple-menu--wrapper, .ring-widget-right, .ring-widget {
     display: none !important;
     visibility: hidden !important;
 }
