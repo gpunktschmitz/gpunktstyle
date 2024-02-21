@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.28.7
+@version        0.29.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -84,6 +84,17 @@ div[cel_widget_id^="MAIN-FEEDBACK-"],div[data-cel-widget^="search_result_"]>div>
 header#donate_banner{
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("businessinsider.de") {
+div.footer-container, h6, div.bi-skyscraper-container, figure.wp-block-inline-teaser, div.article-footer, section.related-wrap, ul.social-share {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body .flex-container .without-sidebar {
+    padding-bottom: 50rem;
 }
 }
 
