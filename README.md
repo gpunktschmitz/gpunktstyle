@@ -1,6 +1,6 @@
 # gpunktstyle
-userstyle for browser plugin "Stylus"
+user styles for browser plugin "Stylus"
 
-## install links
-* https://userstyles.world/style/7902/gpunktstyle
-* https://userstyles.world/style/7907/gpunktstyle-nameless
+## installation
+1. install browser addon "Stylus"
+2. navigate to one of the styles and the plugin will provide an option to install it
