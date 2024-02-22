@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.34.0
+@version        0.35.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -375,6 +375,19 @@ div[role=alertdialog],div#uhfCookieAlert,div#rail-column,div#ocFooterWrapper,div
 div.GSVDf {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("powershellcenter.com") {
+a[href="http://miniorange.com/cyber-security"], div.ct-sidebar-widget, div.ct-share-container, div.ct-post-meta, div.pagination-single, div.kk-star-ratings, div[id^=like-post-wrapper], div.related-container, div#comments, div.footer-site-info, div#fb-root, div#bmc-wbtn, h2:has(span#Posts_you_might_like), ul.wp-block-yoast-seo-related-links, div.ct-home-widget {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+div.ct-content {
+    max-width: 100%;
+    flex: 100%;
+    padding-bottom: 80%;
 }
 }
 
