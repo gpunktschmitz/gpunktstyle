@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.29.0
+@version        0.30.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -589,6 +589,17 @@ section#preview>div.card {
 #wmde-banner-app, #wmde-banner, #centralNotice {
     display: none;
     visibility: hidden;
+}
+}
+
+@-moz-document domain("warlord0blog.wordpress.com") {
+footer,#jp-post-flair,#comments-section,#actionbar,div.footer,div.post-cat-tags,div.header,nav.post-navigation {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body {
+    margin-bottom: 23rem;
 }
 }
 
