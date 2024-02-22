@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.33.0
+@version        0.34.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -207,6 +207,30 @@ div#gdpr-banner, div.bos-items__loader {
 #brokerage-agreement {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("focus.de") {
+footer, iframe, #sc-outstream, .cls_slot_xxoutstreamxx, #top-banner, #headerIcons, aside#sidebar, div.articleHead>div.actions, ul#article-social, #singlepostSlideInBoxHoch, .m-conclusion-box, .comments-banner, .comments-background, .comments-panel, .OUTBRAIN, div[class^="teaserList"], #teaserRss, div.affiliate_info, div.textBlock.orange-button-artobj.ps-tracking-position.ps-trackingposition_OrangerButton, em>div {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+main#main, #article div.articleContent, #article div.mediaBlock.headmedia, section#content, section#content>div {
+    width: 95%;
+}
+
+#article div.mediaBlock.headmedia img {
+    width: 100%;
+    height: 100%;
+}
+
+main#main {
+    padding-bottom: 23rem;
+}
+
+#article div.articleContent {
+    float: left;
 }
 }
 
