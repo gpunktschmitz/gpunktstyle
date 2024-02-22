@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.37.0
+@version        0.38.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -728,5 +728,16 @@ body {
 @-moz-document domain("youtube.com") {
 ytd-rich-section-renderer {
     display: none;
+}
+}
+
+@-moz-document domain("zeit.de") {
+aside.newsletter-signup, aside.topicbox, a.navigation__subscription-link, footer, div.ad-container, div.ad-container, div.comments-service, div.paywall-footer, div.sharing-menu {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body {
+    padding-bottom: 13rem;
 }
 }
