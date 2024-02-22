@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.31.0
+@version        0.32.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -107,6 +107,22 @@ header#donate_banner{
     display: none !important;
     visibility: hidden !important;
 }
+}
+
+@-moz-document domain("arstechnica.com") {
+footer,#article-footer-wrap,#article-footer-wrap,#social-footer,section.article-author,div.xrail,aside#social-left {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body {
+    margin-bottom: 40%;
+}
+
+div.column-wrapper>div.left-column {
+    width: 90% !important;
+}
+
 }
 
 @-moz-document domain("businessinsider.de") {
