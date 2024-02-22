@@ -51,6 +51,17 @@ iframe,div[style="width: 100%;"]>h2,div[style="text-align: center; margin-top: 2
 }
 }
 
+@-moz-document domain("9to5mac.com") {
+aside,div.meta__comment-count,div.related-guides,div.author-bio-container,div.infinite-wrap,div.google-news-link,div.article__youtube-video,#comments {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body {
+    margin-bottom: 23rem;
+}
+}
+
 @-moz-document domain("adamtheautomator.com") {
 body > header, div > header > div > div :not(h1), body > div > div > div, #mailchimp-top-bar, div.ns-buttons-wrapper, blockquote.wp-block-quote, div.flex-col.items-center.justify-self-center, .article__footer, footer {
     display: none !important;
