@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.36.1
+@version        0.37.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -710,6 +710,18 @@ footer,#jp-post-flair,#comments-section,#actionbar,div.footer,div.post-cat-tags,
 
 body {
     margin-bottom: 23rem;
+}
+}
+
+@-moz-document domain("woshub.com") {
+.penci-top-bar, #footer-section, #comments, .post-related, .post-pagination, .tags-share-box, #sidebar {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+#main {
+    width: 100% !important;
+    padding-bottom: 13rem;
 }
 }
 
