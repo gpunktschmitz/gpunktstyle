@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.30.0
+@version        0.31.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -37,6 +37,17 @@ body.glightbox-open>div#glightbox-body {
 div#consentOverlay,div.consent-manager {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("4sysops.com") {
+iframe,div[style="width: 100%;"]>h2,div[style="text-align: center; margin-top: 25px; border: 1px #A0C8E4 solid; background-color: #E1ECF4; clear: both;"],div[style="min-height: 50px; width: 100%; height: auto; position: abolute; display: inline-block; text-align:center"],div.sidebar-main,div.sidebar-extra,div.mwai-chatbot-container,div.kleo-quick-contact-wrapper,nav.pagination-sticky,#comments,#footer,#socket,body>a {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+#main-container {
+    padding-bottom: 23rem;
 }
 }
 
