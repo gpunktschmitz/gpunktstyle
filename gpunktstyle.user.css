@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.35.0
+@version        0.36.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -368,6 +368,17 @@ div[role=alertdialog],div#uhfCookieAlert,div#rail-column,div#ocFooterWrapper,div
 #survey-popover {
     visibility: hidden !important;
     display: none !important;
+}
+}
+
+@-moz-document domain("mobiflip.de") {
+footer, div.shortpost,div#dsqkommentare,div.embedpostwrapperlong {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+div#body-main-wrap {
+    margin-bottom: 23rem;
 }
 }
 
