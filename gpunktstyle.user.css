@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.32.0
+@version        0.33.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -370,6 +370,30 @@ iframe, footer, header, div.breadcrumbs-widget, div.taxonomies, div.heise-affili
 body {
     background-color: white;
     padding-bottom: 14rem;
+}
+}
+
+@-moz-document domain("theverge.com") {
+div.duet--article--lede {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+div.duet--article--article-body-component.w-full {
+    margin-left: unset !important;
+}
+
+div[class^="duet--article--image-group"],div.duet--article--article-body-component.w-full div.duet--media--content-warning {
+    margin-right: 100px;
+}
+
+div.duet--media--embed, footer, button.duet--article--comments-button, section.duet--article--more-stories,div.duet--layout--rail,div.duet--recirculation--related-list, div.duet--article--lede > div > div.flex-col {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body {
+    margin-bottom: 43rem;
 }
 }
 
