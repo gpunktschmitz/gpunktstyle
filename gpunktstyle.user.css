@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.38.0
+@version        0.39.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -245,6 +245,21 @@ main#main {
 button[data-testid="copilot-popover-button"],.signup-prompt-bg {
     display:none!important;
     visibility:hidden!important;
+}
+}
+
+@-moz-document domain("golem.de") {
+ul.social-tools, section.section-gpure, aside, div.subscribe-newsletter, div.teaser-widget, div.promos, #comments, #gts-clip, div.career-widget, ul.list-articles, div.specialletters, footer, div.topics, div.wraptusplit, #gservices, #job-market, .supplementary, #recently, li.li-reset, div.grcol3, div.grcol1, li.golemplus, div.activity, #hn1-golemplus  {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+div.g4 {
+    width: 100%;
+}
+
+body {
+    margin-bottom: 23rem;
 }
 }
 
