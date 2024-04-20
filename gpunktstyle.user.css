@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.40.0
+@version        0.41.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -187,6 +187,17 @@ div.ReactModalPortal {
 
 body.ReactModal__Body--open {
     overflow: unset !important;
+}
+}
+
+@-moz-document domain("dr-datenschutz.de") {
+footer, #comments, #footer, #dd-discover-topics, div.dd-related-posts, div.dd-related-content, div.dd-widget-area-below-content, #secondary {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body {
+    margin-bottom: 23rem;
 }
 }
 
