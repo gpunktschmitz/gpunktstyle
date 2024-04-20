@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.43.1
+@version        0.44.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -368,6 +368,21 @@ html {
 .ReactModalPortal,.ReactModal__Overlay,.ReactModal__Overlay--after-open {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("linuxjournal.com") {
+footer,section.section--disqus,i._access-icon,div.bs-region--right {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+div.bs-region--left {
+    width: 100%;
+}
+
+body {
+    margin-bottom: 50rem;
 }
 }
 
