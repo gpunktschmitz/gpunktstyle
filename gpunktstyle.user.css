@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.45.3
+@version        0.46.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -375,6 +375,17 @@ body.privacy-consent--active {
 div.privacy-consent--modal, div.privacy-consent--backdrop {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("iphone-ticker.de") {
+#article-single-footer-tags, #article-single-footer, #article-single-newsfeed-navigation, #article-single-comments, #article-single-stats, div[id^="verbraucherhinweis-"], header, footer {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+span.content{
+    margin-bottom: 23rem !important;
 }
 }
 
