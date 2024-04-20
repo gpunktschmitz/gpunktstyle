@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.45.1
+@version        0.45.2
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -96,7 +96,7 @@ div[class^="AdsenseAd"] {
 }
 
 @-moz-document domain("amazon.de") {
-div[cel_widget_id^="MAIN-FEEDBACK-"],div[data-cel-widget^="search_result_"]>div>div[data-csa-c-content-id^="amzn1.sym."], div.AdHolder, .maple-banner,div#marketing, div#widget-rightUpsellSlot, div#maple-smart-wagon-full-page, div#issuancePriceblockAmabot_feature_div, div#sc-new-upsell,span[data-action="sp-cc"], #cbcc_banner, div[id^="smart-wagon-recommendations"], div[role^="complementary"], #navFooter {
+div[class^="_osu-widget-cards"], a.prime-popover-link, a#nav-link-amazonprime, div[cel_widget_id^="MAIN-FEEDBACK-"],div[data-cel-widget^="search_result_"]>div>div[data-csa-c-content-id^="amzn1.sym."], div.AdHolder, .maple-banner,div#marketing, div#widget-rightUpsellSlot, div#maple-smart-wagon-full-page, div#issuancePriceblockAmabot_feature_div, div#sc-new-upsell,span[data-action="sp-cc"], #cbcc_banner, div[id^="smart-wagon-recommendations"], div[role^="complementary"], #navFooter {
     display: none !important;
     visibility: hidden !important;
 }
