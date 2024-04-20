@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.39.0
+@version        0.40.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -123,6 +123,17 @@ div.column-wrapper>div.left-column {
     width: 90% !important;
 }
 
+}
+
+@-moz-document domain("br.de") {
+footer, section[class^="PrivacyEmbedConsent_wrapper"],div[class^="ArticleModuleHeroSocialMediaSharer"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body {
+    margin-bottom: 23rem;
+}
 }
 
 @-moz-document domain("businessinsider.de") {
