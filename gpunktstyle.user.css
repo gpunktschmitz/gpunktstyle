@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.42.1
+@version        0.43.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -333,6 +333,13 @@ div#CookieConsent, div.modal-backdrop {
 body.modal-open {
     padding: 0 !important;
     overflow: scroll !important;
+}
+}
+
+@-moz-document domain("ing.de") {
+section.insight-modal {
+    display: none !important;
+    visibility: hidden !important;
 }
 }
 
