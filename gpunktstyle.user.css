@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.42.0
+@version        0.42.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -219,7 +219,7 @@ div.text_promo.header--text_promo,div.zcm--right.js-zcm-right,div.header--aside_
 }
 
 @-moz-document domain("ebay.de") {
-div#gdpr-banner, div.bos-items__loader {
+div#gdpr-banner, div.bos-items__loader, div.ux-product-tour {
     display: none !important;
     visibility: hidden !important;
 }
