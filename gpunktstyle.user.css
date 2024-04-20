@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.46.0
+@version        0.46.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -400,7 +400,7 @@ html {
 }
 
 @-moz-document domain("komoot.com") {
-.ReactModalPortal,.ReactModal__Overlay,.ReactModal__Overlay--after-open {
+#banner_portal_container, .ReactModalPortal, .ReactModal__Overlay, .ReactModal__Overlay--after-open {
     display: none !important;
     visibility: hidden !important;
 }
