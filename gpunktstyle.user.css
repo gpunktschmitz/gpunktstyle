@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.44.1
+@version        0.45.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -334,6 +334,31 @@ body.modal-open {
     padding: 0 !important;
     overflow: scroll !important;
 }
+}
+
+@-moz-document domain("howtogeek.com") {
+footer,aside,div.affiliate-sponsored,div.nav-right {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+#article-body {
+    width: 100%;
+    /*max-width: 100%;*/
+    grid-column: 1/span 2;
+    grid-template-columns: 1fr auto;
+}
+
+header {
+    max-width: 750px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+body {
+    margin-bottom: 23rem;
+}
+
 }
 
 @-moz-document domain("ing.de") {
