@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.45.0
+@version        0.45.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -344,7 +344,6 @@ footer,aside,div.affiliate-sponsored,div.nav-right {
 
 #article-body {
     width: 100%;
-    /*max-width: 100%;*/
     grid-column: 1/span 2;
     grid-template-columns: 1fr auto;
 }
