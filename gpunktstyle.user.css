@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.54.0
+@version        0.55.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -559,6 +559,21 @@ footer, div.shortpost,div#dsqkommentare,div.embedpostwrapperlong {
 }
 
 div#body-main-wrap {
+    margin-bottom: 23rem;
+}
+}
+
+@-moz-document domain("niallbrady.com") {
+div#primary, div[role="banner"], center>a[rel="nofollow"], div#comments {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+#content {
+    width: 95% !important;
+}
+
+#wrapper {
     margin-bottom: 23rem;
 }
 }
