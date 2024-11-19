@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.53.0
+@version        0.54.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -488,6 +488,19 @@ div#maincontent {
     margin-bottom: 23rem;
 }
 
+}
+
+@-moz-document domain("mactechnews.de") {
+footer, aside, section.MtnNewsBanner>div>ul, aside#panel, aside#login, aside.AdditionalNavigation, aside>div.Functions, span#ContentPlaceHolder1_mtnContentEmpfehlen1, #comments, #ContentPlaceHolder1_MtnNewsCommentScrollNewsComments, main#content>h3, main#content>h2 {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body.News_article #content {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 33rem;
+}
 }
 
 @-moz-document domain("msn.com") {
