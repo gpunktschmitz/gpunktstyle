@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.57.0
+@version        0.58.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -632,6 +632,17 @@ div.ct-content {
 
 body.didomi-popup-open {
     overflow: unset !important;
+}
+}
+
+@-moz-document domain("t-online.de") {
+iframe, #banner, div[data-testid="CommercialSDI.Banner.Placeholder"], div[data-testid="Stage.Companion.Commercial"], div[data-testid="Commercial.SDI"], div[data-testid="ArticleBottomDivMarker"], div[data-testid="PageFooter"], div[data-testid="StreamLayout.Companion"], #__next>header>div:has(nav), div[data-testid="StageLayout.StreamItem"]>section, div[data-testid="StreamLayout.Stream"]>section, div[role="presentation"]:has(section[data-testid="PushNotification.ModalView"]) {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+main {
+    padding-bottom: 13rem !important;
 }
 }
 
