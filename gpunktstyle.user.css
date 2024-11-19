@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.60.2
+@version        0.61.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -96,6 +96,13 @@ header, .border-slate-300, .border-b {
 
 body {
     padding-bottom: 23rem;
+}
+}
+
+@-moz-document domain("addictivetips.com") {
+a[rel="sponsored"], .vpndeal, #vpn, .nordvpn, .gotosite, .pro-con {
+    display: none !important;
+    visibility: hidden !important;
 }
 }
 
