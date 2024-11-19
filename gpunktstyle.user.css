@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.60.0
+@version        0.60.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -996,7 +996,7 @@ div[class^="src-signup_layer-layout"] {
 }
 
 @-moz-document domain("youtube.com") {
-ytd-rich-section-renderer {
+ytd-rich-section-renderer,.ytd-feed-nudge-renderer {
     display: none;
 }
 }
