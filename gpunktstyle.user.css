@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.63.0
+@version        0.64.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -172,6 +172,17 @@ div.column-wrapper>div.left-column {
 div.flyout_newsletter_center.is-visible {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("blog.finxter.com") {
+.tve-leads-screen-filler {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+html.tve-so-hidden.tve-sl-open.tve-s-hide-overflow, body.tve-so-hidden.tve-sl-open.tve-s-hide-overflow {
+    overflow: unset !important;
 }
 }
 
