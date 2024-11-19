@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.55.0
+@version        0.56.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -576,6 +576,25 @@ div#primary, div[role="banner"], center>a[rel="nofollow"], div#comments {
 #wrapper {
     margin-bottom: 23rem;
 }
+}
+
+@-moz-document domain("nytimes.com") {
+article>div:first-child, span[data-testid="onsite-messaging-unit-barOne"], nav#site-index, footer, p[aria-live="polite"], section[aria-labelledby="live-post-recirculation"], div[data-testid="share-tools"], div.vi-gateway-container>div:last-child, aside, div[data-testid="onsite-messaging-unit-gateway"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+div.vi-gateway-container {
+    position: unset;
+    overflow: unset;
+    height: 0;
+}
+
+main {
+    padding-bottom: 33rem;
+}
+
+
 }
 
 @-moz-document domain("outlook.office.com") {
