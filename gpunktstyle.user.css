@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.48.0
+@version        0.49.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -401,6 +401,13 @@ html {
 
 @-moz-document domain("komoot.com") {
 #banner_portal_container, .ReactModalPortal, .ReactModal__Overlay, .ReactModal__Overlay--after-open {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("lazyadmin.nl") {
+div.modal-container {
     display: none !important;
     visibility: hidden !important;
 }
