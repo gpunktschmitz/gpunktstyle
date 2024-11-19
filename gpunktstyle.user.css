@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.52.1
+@version        0.53.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -472,6 +472,22 @@ div.bs-region--left {
 body {
     margin-bottom: 50rem;
 }
+}
+
+@-moz-document domain("macrumors.com") {
+header>div>div, footer, article>div[class^="footer"], div[class^="sidebar--"], div#maincontent>div {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+article {
+    border-bottom: 1px solid #d5d3cd;
+}
+
+div#maincontent {
+    margin-bottom: 23rem;
+}
+
 }
 
 @-moz-document domain("msn.com") {
