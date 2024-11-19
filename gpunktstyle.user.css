@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.51.0
+@version        0.52.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -269,6 +269,13 @@ div#gdpr-banner, div.bos-items__loader, div.ux-product-tour {
 
 article {
     padding-bottom: 270rem;
+}
+}
+
+@-moz-document domain("fazua.com") {
+.modal-backdrop.show {
+    visibility: hidden !important;
+    display: none !important;
 }
 }
 
