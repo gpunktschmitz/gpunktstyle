@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.62.1
+@version        0.63.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -166,6 +166,13 @@ div.column-wrapper>div.left-column {
     width: 90% !important;
 }
 
+}
+
+@-moz-document domain("bikerumor.com") {
+div.flyout_newsletter_center.is-visible {
+    display: none !important;
+    visibility: hidden !important;
+}
 }
 
 @-moz-document domain("br.de") {
