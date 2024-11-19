@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.64.0
+@version        0.64.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -212,6 +212,10 @@ body .flex-container .without-sidebar {
 iframe, aside, .Article__Promo, div#video-widget, section.ArticleRecommendation, footer {
     display: none !important;
     visibility: hidden !important;
+}
+.sp-message-open body {
+    overflow: visible !important;
+    position: unset !important;
 }
 }
 
