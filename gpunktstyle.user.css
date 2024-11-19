@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.52.0
+@version        0.52.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -443,9 +443,12 @@ html {
 }
 
 @-moz-document domain("komoot.com") {
-#banner_portal_container, .ReactModalPortal, .ReactModal__Overlay, .ReactModal__Overlay--after-open {
+#banner_portal_container {
     display: none !important;
     visibility: hidden !important;
+}
+a[href $= "/streak"], a[href $= "/notifications"], a[href $= "/shop"] {
+    display: none;
 }
 }
 
