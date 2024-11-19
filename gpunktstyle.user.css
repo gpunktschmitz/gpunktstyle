@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.50.0
+@version        0.51.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -111,6 +111,31 @@ div[class^="_osu-widget-cards"], a.prime-popover-link, a#nav-link-amazonprime, d
     display: none !important;
     visibility: hidden !important;
 }
+}
+
+@-moz-document domain("apfelpage.de") {
+footer, div:has(>#author), div:has(>#comments), div:has(>aside), #content>p:last-of-type {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+div#single_bg>article#single>div {
+    width:  100%;
+}
+
+#content {
+    width: 95%;
+}
+
+#single_bg {
+    background: none;
+    background-color: white;
+}
+
+body {
+    margin-bottom: 23rem;
+}
+
 }
 
 @-moz-document domain("archive.org") {
