@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.65.2
+@version        0.66.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -638,6 +638,13 @@ main {
 
 @-moz-document domain("outlook.office.com") {
 div.GSVDf {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("otto.de") {
+h1.or_confirmation__offersHeadline, div.or_confirmation__offersIframe, div:has(>a>article.pl_promo-card), div.or_confirmation__offersBanner {
     display: none !important;
     visibility: hidden !important;
 }
