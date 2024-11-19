@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.58.0
+@version        0.59.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -643,6 +643,25 @@ iframe, #banner, div[data-testid="CommercialSDI.Banner.Placeholder"], div[data-t
 
 main {
     padding-bottom: 13rem !important;
+}
+}
+
+@-moz-document domain("taz.de") {
+#footer, #tzi-paywahl-fg, div.even.sect.sect_text, div.full.community.page.last.odd.n3, div.full.no_rightbar.below.news.page.even.n2, .tail, .rightbar, p.caption, .tziBottomWrapper, div.even.sect.sect_text>.sectbody, .shariff {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+p.intro, #pages>.full.page>.body, p.article {
+    width: 95%;
+}
+
+.sect_article>.sectbody>a.picture>img {
+    margin: auto;
+}
+
+body {
+    margin-bottom: 23rem;
 }
 }
 
