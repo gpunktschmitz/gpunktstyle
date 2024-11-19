@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.66.0
+@version        0.67.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -800,6 +800,13 @@ div#app {
 
 @-moz-document domain("raspberrytips.com") {
 div.ml-webforms-popup-overlay,iframe {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("reddit.com") {
+alert-controller {
     display: none !important;
     visibility: hidden !important;
 }
