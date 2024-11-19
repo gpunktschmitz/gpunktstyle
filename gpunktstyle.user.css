@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.60.1
+@version        0.60.2
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -449,6 +449,9 @@ html {
 }
 a[href $= "/streak"], a[href $= "/notifications"], a[href $= "/shop"] {
     display: none;
+}
+html.ReactModal__Html--open {
+    overflow: unset !important;
 }
 }
 
