@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.70.0
+@version        0.71.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -543,6 +543,13 @@ html.ReactModal__Html--open {
 
 @-moz-document domain("lazyadmin.nl") {
 div.modal-container {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("lifehacker.com") {
+section[data-ga-module="content-header"]>div.custom-background-image, div[data-spotim-module="default"],div[data-spotim-app="reactions"],ow-ads_conversation, footer, aside {
     display: none !important;
     visibility: hidden !important;
 }
