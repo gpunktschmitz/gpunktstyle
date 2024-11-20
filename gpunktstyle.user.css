@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.72.0
+@version        0.73.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -148,6 +148,18 @@ body {
 }
 div.column-wrapper>div.left-column {
     width: 90% !important;
+}
+}
+
+@-moz-document domain("azure.com") {
+div.fxs-topbar-toast:has(div.fxs-nps-survey) {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+a.fxs-topbar-copilot {
+    display: none !important;
+    visibility: hidden !important;    
 }
 }
 
