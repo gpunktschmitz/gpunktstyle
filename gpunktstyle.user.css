@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.69.1
+@version        0.70.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -439,6 +439,21 @@ div#CookieConsent, div.modal-backdrop {
 body.modal-open {
     padding: 0 !important;
     overflow: scroll !important;
+}
+}
+
+@-moz-document domain("hifi.de") {
+footer, #comments, div[id^="PopupSignupForm"], aside, section.hifi-related-articles, div.hifi-post__action-buttons, div.recommended-links {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+article > div >div.col-md-8 {
+    width: 100%;
+}
+
+html {
+    padding-bottom: 23rem;
 }
 }
 
