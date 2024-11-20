@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.68.0
+@version        0.69.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -252,6 +252,22 @@ body.scrollBar-0px {
 /*add a lot of space so the next article wont be loaded automatically*/
 div.c-pageArticle_content {
     padding-bottom: 224rem;
+}
+}
+
+@-moz-document domain("computerwoche.de") {
+footer, iframe, div[id^="sp_message_container"], div.author-bio, div.social-share-sticky-menu, div.article-hero__social, #rightrail-wrapper, section.suggested-content-various {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+html.sp-message-open body {
+    overflow: unset !important;
+    position: unset !important;
+}
+
+body {
+    margin-bottom: 23rem;
 }
 }
 
