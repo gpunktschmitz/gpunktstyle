@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.71.1
+@version        0.72.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -165,6 +165,26 @@ div.va-maincol {
 div.flyout_newsletter_center.is-visible {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("blog.ciaops.com") {
+footer,nav.post-navigation,div.entry-author-wrapper, div.entry-footer, div.sharedaddy , #secondary, #comments, #actionbar {
+    display: none !important;
+    visibility: hidden !important;
+}
+.has-sidebar .content-area {
+    margin: 0 !important;
+}
+.has-sidebar .site-main {
+    margin: 0 -13% 0 13%!important;
+    max-width: 70%;
+}
+article>header, div.entry-meta {
+    text-align: center;
+}
+body {
+    margin-bottom: 23rem;
 }
 }
 
