@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.67.0
+@version        0.68.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -166,6 +166,17 @@ div.column-wrapper>div.left-column {
     width: 90% !important;
 }
 
+}
+
+@-moz-document domain("bike-x.de") {
+div.va-inline-related-container, div.va-sponsored, div.va-sidecol,div[class^="mx-4 lg:mx-0 mb-6 rounded-t-lg border-2 border-solid inlinePaidPlenigo_border-color"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+div.va-maincol {
+    width: 100%;
+}
 }
 
 @-moz-document domain("bikerumor.com") {
