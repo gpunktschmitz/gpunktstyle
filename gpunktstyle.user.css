@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.71.0
+@version        0.71.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -15,7 +15,6 @@
 body, :root.ccm-blocked, body.ccm-blocked {
     overflow: visible !important;
 }
-
 iframe[src^="https://accounts.google.com/gsi/iframe/select?client_id="], .snowflakes {
     display: none !important;
     visibility: hidden !important;
@@ -27,7 +26,6 @@ body.glightbox-open>div#glightbox-body {
     display: none !important;
     visibility: hidden !important;
 }
-
 .glightbox-open {
     overflow: unset !important;
 }
@@ -45,7 +43,6 @@ iframe,div[style="width: 100%;"]>h2,div[style="text-align: center; margin-top: 2
     display: none !important;
     visibility: hidden !important;
 }
-
 #main-container {
     padding-bottom: 23rem;
 }
@@ -56,7 +53,6 @@ aside,div.meta__comment-count,div.related-guides,div.author-bio-container,div.in
     display: none !important;
     visibility: hidden !important;
 }
-
 body {
     margin-bottom: 23rem;
 }
@@ -67,7 +63,6 @@ nav.post-navigation, .sharedaddy, footer, #comments, .jp-relatedposts, #secondar
     display: none !important;
     visibility: hidden !important;
 }
-
 #primary>#main {
     margin:0;
 }
@@ -78,22 +73,18 @@ body > header, div > header > div > div :not(h1), body > div > div > div, #mailc
     display: none !important;
     visibility: hidden !important;
 }
-
 header {
     top: 0 !important;
     height: 5rem !important;
 }
-
 header > div {
     height: 0 !important;
     margin-top: 0 !important;
 }
-
 header, .border-slate-300, .border-b {
     border: none !important;
 
 }
-
 body {
     padding-bottom: 23rem;
 }
@@ -125,24 +116,19 @@ footer, div:has(>#author), div:has(>#comments), div:has(>aside), #content>p:last
     display: none !important;
     visibility: hidden !important;
 }
-
 div#single_bg>article#single>div {
     width:  100%;
 }
-
 #content {
     width: 95%;
 }
-
 #single_bg {
     background: none;
     background-color: white;
 }
-
 body {
     margin-bottom: 23rem;
 }
-
 }
 
 @-moz-document domain("archive.org") {
@@ -157,15 +143,12 @@ footer,#article-footer-wrap,#article-footer-wrap,#social-footer,section.article-
     display: none !important;
     visibility: hidden !important;
 }
-
 body {
     margin-bottom: 40%;
 }
-
 div.column-wrapper>div.left-column {
     width: 90% !important;
 }
-
 }
 
 @-moz-document domain("bike-x.de") {
@@ -173,7 +156,6 @@ div.va-inline-related-container, div.va-sponsored, div.va-sidecol,div[class^="mx
     display: none !important;
     visibility: hidden !important;
 }
-
 div.va-maincol {
     width: 100%;
 }
@@ -191,7 +173,6 @@ div.flyout_newsletter_center.is-visible {
     display: none !important;
     visibility: hidden !important;
 }
-
 html.tve-so-hidden.tve-sl-open.tve-s-hide-overflow, body.tve-so-hidden.tve-sl-open.tve-s-hide-overflow {
     overflow: unset !important;
 }
@@ -202,7 +183,6 @@ footer, section[class^="PrivacyEmbedConsent_wrapper"],div[class^="ArticleModuleH
     display: none !important;
     visibility: hidden !important;
 }
-
 body {
     margin-bottom: 23rem;
 }
@@ -213,7 +193,6 @@ div.footer-container, h6, div.bi-skyscraper-container, figure.wp-block-inline-te
     display: none !important;
     visibility: hidden !important;
 }
-
 body .flex-container .without-sidebar {
     padding-bottom: 50rem;
 }
@@ -235,20 +214,16 @@ div.c-articleLinkBlock, div.c-shortcodeVideoInline, div.c-shortcodeGallery, div.
     display: none !important;
     visibility: hidden !important;
 }
-
 body.scrollBar-0px {
     --scrollbar-width: unset !important;
     overflow-y: visible !important;
 }
-
 .c-pageArticle_body.lg\:u-col-6, .c-articleHeader.lg\:u-col-6 {
     grid-column-end: span 9;
 }
-
 .c-pageArticleHero.lg\:u-col-8 {
     grid-column-start: 2;
 }
-
 /*add a lot of space so the next article wont be loaded automatically*/
 div.c-pageArticle_content {
     padding-bottom: 224rem;
@@ -260,12 +235,10 @@ footer, iframe, div[id^="sp_message_container"], div.author-bio, div.social-shar
     display: none !important;
     visibility: hidden !important;
 }
-
 html.sp-message-open body {
     overflow: unset !important;
     position: unset !important;
 }
-
 body {
     margin-bottom: 23rem;
 }
@@ -276,7 +249,6 @@ div.ReactModalPortal {
     display: none !important;
     visibility: hidden !important;
 }
-
 body.ReactModal__Body--open {
     overflow: unset !important;
 }
@@ -287,7 +259,6 @@ footer, #comments, #footer, #dd-discover-topics, div.dd-related-posts, div.dd-re
     display: none !important;
     visibility: hidden !important;
 }
-
 body {
     margin-bottom: 23rem;
 }
@@ -329,7 +300,6 @@ div#steadyAdblockContainer {
     display: none !important;
     visibility: hidden !important;
 }
-
 article {
     padding-bottom: 270rem;
 }
@@ -354,20 +324,16 @@ footer, iframe, #sc-outstream, .cls_slot_xxoutstreamxx, #top-banner, #headerIcon
     display: none !important;
     visibility: hidden !important;
 }
-
 main#main, #article div.articleContent, #article div.mediaBlock.headmedia, section#content, section#content>div {
     width: 95%;
 }
-
 #article div.mediaBlock.headmedia img {
     width: 100%;
     height: 100%;
 }
-
 main#main {
     padding-bottom: 23rem;
 }
-
 #article div.articleContent {
     float: left;
 }
@@ -392,11 +358,9 @@ ul.social-tools, section.section-gpure, aside, div.subscribe-newsletter, div.tea
     display: none !important;
     visibility: hidden !important;
 }
-
 div.g4 {
     width: 100%;
 }
-
 body {
     margin-bottom: 23rem;
 }
@@ -414,17 +378,14 @@ div#consent {
     overflow-y: scroll !important;
     position: relative !important;
 }
-
 .a-article-header__service,div.perf-cls-reduc-leaderboard, a-lightbox[src*="HSP_"], .cleverpush-bell, footer, aside, .inread-cls-reduc, .a-layout__sidebar, a-opt-in[type="Preisvergleichinternetservices"],a[href="/plus"], .branding, div[id^="sp_message_container_"], div.a-layout__container.a-layout__container--full-width, div.header-logo__plus-group, section[data-component="MarketingTeaserModule"], div[data-upscore-zone^="homepage_teaser_list"], a-sticky-footer, article[data-component="TeaserContainer"]:has(footer):has(svg[preserveAspectRatio]), section.article-sidebar, article#meldung>div>aside, div.a-layout:has(div.stage--heiseplus), div[data-component="RecommendationBox"], a-img[src="/Magazin-Banner/ct_desktop.jpg"] {
     display: none !important;
     visibility: hidden !important;
 }
-
 div.a-layout__main, article#meldung, article#meldung>div>header, div[class^="article-layout__"]{
     width: 100% !important;
     max-width: 100% !important;
 }
-
 .sp-message-open .topnavigation-menu, .sp-message-open .topnavigation-search {
     display: block
 }
@@ -435,7 +396,6 @@ div#CookieConsent, div.modal-backdrop {
     display: none !important;
     visibility: hidden !important;
 }
-
 body.modal-open {
     padding: 0 !important;
     overflow: scroll !important;
@@ -447,11 +407,9 @@ footer, #comments, div[id^="PopupSignupForm"], aside, section.hifi-related-artic
     display: none !important;
     visibility: hidden !important;
 }
-
 article > div >div.col-md-8 {
     width: 100%;
 }
-
 html {
     padding-bottom: 23rem;
 }
@@ -462,23 +420,19 @@ footer,aside,div.affiliate-sponsored,div.nav-right {
     display: none !important;
     visibility: hidden !important;
 }
-
 #article-body {
     width: 100%;
     grid-column: 1/span 2;
     grid-template-columns: 1fr auto;
 }
-
 header {
     max-width: 750px;
     text-align: center;
     margin: 0 auto;
 }
-
 body {
     margin-bottom: 23rem;
 }
-
 }
 
 @-moz-document domain("ing.de") {
@@ -492,7 +446,6 @@ section.insight-modal {
 body.privacy-consent--active {
     overflow: scroll !important;
 }
-
 div.privacy-consent--modal, div.privacy-consent--backdrop {
     display: none !important;
     visibility: hidden !important;
@@ -504,16 +457,13 @@ div.privacy-consent--modal, div.privacy-consent--backdrop {
     display: none !important;
     visibility: hidden !important;
 }
-
 span.content{
     margin-bottom: 23rem !important;
 }
 }
 
 @-moz-document domain("kleinanzeigen.de") {
-    #car-financing-frontend,
-    li.ad-listitem:has(article>div.aditem-main>div.aditem-main--bottom>div>a>div.badge-hint-pro-small-srp),
-    li.ad-listitem:has(article>div.aditem-main>div.aditem-main--middle>div.aditem-main--bottom>div>a>div.badge-hint-pro-small-srp),li.is-topad, div#consentBanner, div.login-overlay, div#liberty-my_ads-top-banner, div#liberty-home-billboard, section#home-gallery, div#brws_banner-supersize, div.srp-header, div.j-zsrp-infobox, [data-liberty-position-name=home-billboard], [data-liberty-position-name^=my][data-liberty-position-name$=top-banner], [data-liberty-position-name^=vip][data-liberty-position-name$=billboard], section#vap-smlrads {
+#car-financing-frontend,li.ad-listitem:has(article>div.aditem-main>div.aditem-main--bottom>div>a>div.badge-hint-pro-small-srp),li.ad-listitem:has(article>div.aditem-main>div.aditem-main--middle>div.aditem-main--bottom>div>a>div.badge-hint-pro-small-srp),li.is-topad, div#consentBanner, div.login-overlay, div#liberty-my_ads-top-banner, div#liberty-home-billboard, section#home-gallery, div#brws_banner-supersize, div.srp-header, div.j-zsrp-infobox, [data-liberty-position-name=home-billboard], [data-liberty-position-name^=my][data-liberty-position-name$=top-banner], [data-liberty-position-name^=vip][data-liberty-position-name$=billboard], section#vap-smlrads {
     display: none !important;
     visibility: hidden !important;
     border: none;
@@ -560,11 +510,9 @@ footer,section.section--disqus,i._access-icon,div.bs-region--right {
     display: none !important;
     visibility: hidden !important;
 }
-
 div.bs-region--left {
     width: 100%;
 }
-
 body {
     margin-bottom: 50rem;
 }
@@ -575,11 +523,9 @@ header>div>div, footer, article>div[class^="footer"], div[class^="sidebar--"], d
     display: none !important;
     visibility: hidden !important;
 }
-
 article {
     border-bottom: 1px solid #d5d3cd;
 }
-
 div#maincontent {
     margin-bottom: 23rem;
 }
@@ -591,7 +537,6 @@ footer, aside, section.MtnNewsBanner>div>ul, aside#panel, aside#login, aside.Add
     display: none !important;
     visibility: hidden !important;
 }
-
 body.News_article #content {
     width: 100%;
     margin-top: 2rem;
@@ -604,31 +549,25 @@ div:has(>div[class^="backdrop-DS-"]),div[class^="newsContainer-DS"],action-tray,
     display: none !important;
     visibility: hidden !important;
 }
-
 .windows-header .content-DS-EntryPoint1-1::before {
     height: 0;
 }
-
 .windows-header .content-DS-EntryPoint1-1 {
     margin-top: 0;
 }
-
 #WeatherOverviewV2-ScreenWidth-c4,
 #WeatherOverviewV2-ScreenWidthServerWeather-c4 {
     grid-area: 1 / 1 / 2 / 5 !important;
 }
-
 #weatherMiniMapContainer,
 #WeatherMapMini-ScreenWidth-c3,
 #WeatherMapMini-ScreenWidthServerWeather-c4,
 #WeatherMapMini-ScreenWidth-c4 {
     grid-area: 1 / 3 / 2 / 5 !important;
 }
-
 .weatherOverview_root-DS-EntryPoint1-1.size1uCard {
     width: unset;
 }
-
 .summaryCardShowAnimation-DS-EntryPoint1-1 {
     margin-top: 0px;
 }
@@ -653,7 +592,6 @@ footer, div.shortpost,div#dsqkommentare,div.embedpostwrapperlong {
     display: none !important;
     visibility: hidden !important;
 }
-
 div#body-main-wrap {
     margin-bottom: 23rem;
 }
@@ -664,11 +602,9 @@ div#primary, div[role="banner"], center>a[rel="nofollow"], div#comments {
     display: none !important;
     visibility: hidden !important;
 }
-
 #content {
     width: 95% !important;
 }
-
 #wrapper {
     margin-bottom: 23rem;
 }
@@ -679,18 +615,14 @@ article>div:first-child, span[data-testid="onsite-messaging-unit-barOne"], nav#s
     display: none !important;
     visibility: hidden !important;
 }
-
 div.vi-gateway-container {
     position: unset;
     overflow: unset;
     height: 0;
 }
-
 main {
     padding-bottom: 33rem;
 }
-
-
 }
 
 @-moz-document domain("outlook.office.com") {
@@ -719,7 +651,6 @@ a[href="http://miniorange.com/cyber-security"], div.ct-sidebar-widget, div.ct-sh
     display: none !important;
     visibility: hidden !important;
 }
-
 div.ct-content {
     max-width: 100%;
     flex: 100%;
@@ -732,7 +663,6 @@ div.ct-content {
     display: none !important;
     visibility: hidden !important;
 }
-
 body.didomi-popup-open {
     overflow: unset !important;
 }
@@ -743,7 +673,6 @@ iframe, #banner, div[data-testid="CommercialSDI.Banner.Placeholder"], div[data-t
     display: none !important;
     visibility: hidden !important;
 }
-
 main {
     padding-bottom: 13rem !important;
 }
@@ -754,15 +683,12 @@ main {
     display: none !important;
     visibility: hidden !important;
 }
-
 p.intro, #pages>.full.page>.body, p.article {
     width: 95%;
 }
-
 .sect_article>.sectbody>a.picture>img {
     margin: auto;
 }
-
 body {
     margin-bottom: 23rem;
 }
@@ -780,7 +706,6 @@ iframe, footer, header, div.breadcrumbs-widget, div.taxonomies, div.heise-affili
     display: none !important;
     visibility: hidden !important;
 }
-
 body {
     background-color: white;
     padding-bottom: 14rem;
@@ -792,20 +717,16 @@ div.duet--article--lede {
     margin-left: 100px;
     margin-right: 100px;
 }
-
 div.duet--article--article-body-component.w-full {
     margin-left: unset !important;
 }
-
 div[class^="duet--article--image-group"],div.duet--article--article-body-component.w-full div.duet--media--content-warning {
     margin-right: 100px;
 }
-
 div.duet--media--embed, footer, button.duet--article--comments-button, section.duet--article--more-stories,div.duet--layout--rail,div.duet--recirculation--related-list, div.duet--article--lede > div > div.flex-col {
     display: none !important;
     visibility: hidden !important;
 }
-
 body {
     margin-bottom: 43rem;
 }
@@ -816,7 +737,6 @@ section.modul--newslist, div:has(> div#ad-Billboard), section.article__linkbox, 
     display: none !important;
     visibility: hidden !important;
 }
-
 footer {
     margin-top: 6rem;
 }
@@ -827,7 +747,6 @@ div.aem-wrapper {
     visibility: hidden !important;
     display: none !important;
 }
-
 body {
     border-top: 0 !important;
 }
@@ -845,11 +764,9 @@ aside, footer, div#app>div.bg-gray-100, div#author-byline div.items-end, div[x-d
     display: none !important;
     visibility: hidden !important;
 }
-
 main>section>div>div, header#content-header, article>p {
     max-width: 100% !important;
 }
-
 div#app {
     padding-bottom: 20%;
 }
@@ -874,11 +791,9 @@ div[data-qa-id^="cross-sell-widget"],div[data-analytics^="crosssell-widget"],.cr
     display: none !important;
     visibility: hidden !important;
 }
-
 div[data-qa-id^="product-details-page"]>div.mb-5 {
     grid-template-columns: none !important;
 }
-
 div[data-qa-id^="product-details-page"]>div.mb-5>div.mt-10 {
     grid-column: unset !important;
 }
@@ -896,7 +811,6 @@ iframe,div#js-ai-search-alpha-popover,div#divQuestionFollowFeaturePopover,div#on
     display: none !important;
     visibility: hidden !important;
 }
-
 div#mainbar {
     width: 100% !important;
 }
@@ -907,16 +821,13 @@ div#mainbar {
     visibility: hidden !important;
     display: none !important;
 }
-
 .col-2cl .main-inner {
     padding-right: 0;
     background: none;
 }
-
 img.aligncenter {
     max-width: 33rem;
 }
-
 article {
     padding-bottom: 13rem;
 }
@@ -927,7 +838,6 @@ div.consent, div.modal-backdrop, div#cookie_initial_modal {
     display: none !important;
     visibility: hidden !important;
 }
-
 body.noscroll,body.modal-open {
     overflow: unset !important;
 }
@@ -938,11 +848,9 @@ body.noscroll,body.modal-open {
     visibility: hidden !important;
     display: none !important;
 }
-
 [data-layout="desktop"] [data-layout-desktop*="w8-"] {
     width: 100%;
 }
-
 div.appetizer-text>span {
     margin-left: 1em;
 }
@@ -960,15 +868,12 @@ footer, .saboxplugin-wrap, .post-navigation, .post-comments, #secondary {
     display: none !important;
     visibility: hidden !important;
 }
-
 #primary {
     width: 100%;
 }
-
 body {
     margin-bottom: 23em;
 }
-
 .site-header {
     margin-bottom: 0;
 }
@@ -986,7 +891,6 @@ nav>div>div>div>button>div>div>div>div>svg, div[data-testid="popper__overlay"].p
     display: none !important;
     visibility: hidden !important;
 }
-
 div.board_task:has(button.priority_4) {
     background-color: #ff000017;
 }
@@ -1005,34 +909,28 @@ div.board_task:has(button.priority_1) {
 div.account__relationship .fa-plus, .fa-user-plus {
     color: #83ae83;
 }
-
 div.account__relationship .fa-times, .fa-user-times {
     color: #ae8483 !important;
 }
-
 article:has(.poll) div.status__wrapper {
     visibility:hidden!important;
     display:none!important;
 }
-
 /* replace button "Publish!" with custom text
 source: https://github.com/mastodon/mastodon/issues/20751#issuecomment-1315329065*/
 .compose-form__publish-button-wrapper button, .ui__header__links .button {
   text-indent: -9999px;
   line-height: 0; /* Collapse the original line */
 }
-
 .compose-form__publish-button-wrapper button:after, .ui__header__links .button:after {
   content:'🐘';
   text-indent: 0;
   display: block;
   line-height: initial; /* New content takes up original line height */
 }
-
 .focusable:focus .detailed-status, .focusable:focus .detailed-status__action-bar, .focusable:focus {
     background-color: #8400ff6e;
 }
-
 .focusable:focus .display-name__account,
 .focusable:focus .status__relative-time,
 .focusable:focus .icon-button,
@@ -1040,17 +938,14 @@ source: https://github.com/mastodon/mastodon/issues/20751#issuecomment-131532906
 .focusable:focus .detailed-status__meta {
     color: #b9a2ca;
 }
-
 .focusable:focus .icon-button.star-icon.active,
 .focusable:focus .notification__favourite-icon-wrapper .star-icon {
     color: #ca8f04;
 }
-
 .focusable:focus button.icon-button.disabled:hover i.fa-retweet,
 .focusable:focus button.icon-button.disabled i.fa-retweet {
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' height='209' width='22'><path d='M 18.972656 1.2011719 C 18.829825 1.1881782 18.685932 1.2302188 18.572266 1.3300781 L 15.990234 3.5996094 C 15.58109 3.6070661 15.297269 3.609375 14.730469 3.609375 L 7.0996094 3.609375 L 9.4199219 6.4609375 L 9.4492188 6.5195312 L 12.664062 6.5195312 L 6.5761719 11.867188 C 6.5674697 11.818249 6.5507813 11.773891 6.5507812 11.720703 L 6.5507812 9.0195312 L 9.0507812 9.0195312 C 9.4207813 9.0495313 9.6792188 8.54 9.4492188 8.25 L 5.5 3.3496094 C 5.38 3.1796094 5.1607031 3.1003906 4.9707031 3.1503906 L 4.9707031 3.1601562 C 4.8707031 3.1901563 4.8 3.2598438 4.75 3.3398438 L 0.80078125 8.2402344 C 0.60078125 8.5402344 0.8292187 9.0190625 1.1992188 9.0390625 L 3.5996094 9.0390625 L 3.5996094 11.720703 C 3.5996094 13.045739 3.5690668 13.895038 3.6503906 14.4375 L 2.6152344 15.347656 C 2.3879011 15.547375 2.3754917 15.901081 2.5859375 16.140625 L 3.1464844 16.78125 C 3.3569308 17.020794 3.7101667 17.053234 3.9375 16.853516 L 19.892578 2.8359375 C 20.119911 2.6362188 20.134275 2.282513 19.923828 2.0429688 L 19.361328 1.4023438 C 19.256105 1.282572 19.115488 1.2141655 18.972656 1.2011719 z M 18.410156 6.7753906 L 15.419922 9.4042969 L 15.419922 9.9394531 L 14.810547 9.9394531 L 13.148438 11.400391 L 16.539062 15.640625 C 16.719062 15.890625 17.140313 15.890625 17.320312 15.640625 L 21.259766 10.740234 C 21.519766 10.460234 21.260625 9.9094531 20.890625 9.9394531 L 18.400391 9.9394531 L 18.400391 7.2402344 C 18.400391 7.0470074 18.407711 6.9489682 18.410156 6.7753906 z M 11.966797 12.439453 L 8.6679688 15.339844 L 14.919922 15.339844 L 12.619141 12.5 C 12.589141 12.48 12.590313 12.459453 12.570312 12.439453 L 11.966797 12.439453 z' fill='%23847491' stroke-width='0'/></svg>")
 }
-
 .focusable:focus button.icon-button i.fa-retweet {
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='209'><path d='M4.97 3.16c-.1.03-.17.1-.22.18L.8 8.24c-.2.3.03.78.4.8H3.6v2.68c0 4.26-.55 3.62 3.66 3.62h7.66l-2.3-2.84c-.03-.02-.03-.04-.05-.06H7.27c-.44 0-.72-.3-.72-.72v-2.7h2.5c.37.03.63-.48.4-.77L5.5 3.35c-.12-.17-.34-.25-.53-.2zm12.16.43c-.55-.02-1.32.02-2.4.02H7.1l2.32 2.85.03.06h5.25c.42 0 .72.28.72.72v2.7h-2.5c-.36.02-.56.54-.3.8l3.92 4.9c.18.25.6.25.78 0l3.94-4.9c.26-.28 0-.83-.37-.8H18.4v-2.7c0-3.15.4-3.62-1.25-3.66z' fill='%23b9a2ca' stroke-width='0'/><path d='M7.78 19.66c-.24.02-.44.25-.44.5v2.46h-.06c-1.08 0-1.86-.03-2.4-.03-1.64 0-1.25.43-1.25 3.65v4.47c0 4.26-.56 3.62 3.65 3.62H8.5l-1.3-1.06c-.1-.08-.18-.2-.2-.3-.02-.17.06-.35.2-.45l1.33-1.1H7.28c-.44 0-.72-.3-.72-.7v-4.48c0-.44.28-.72.72-.72h.06v2.5c0 .38.54.63.82.38l4.9-3.93c.25-.18.25-.6 0-.78l-4.9-3.92c-.1-.1-.24-.14-.38-.12zm9.34 2.93c-.54-.02-1.3.02-2.4.02h-1.25l1.3 1.07c.1.07.18.2.2.33.02.16-.06.3-.2.4l-1.33 1.1h1.28c.42 0 .72.28.72.72v4.47c0 .42-.3.72-.72.72h-.1v-2.47c0-.3-.3-.53-.6-.47-.07 0-.14.05-.2.1l-4.9 3.93c-.26.18-.26.6 0 .78l4.9 3.92c.27.25.82 0 .8-.38v-2.5h.1c4.27 0 3.65.67 3.65-3.62v-4.47c0-3.15.4-3.62-1.25-3.66zM10.34 38.66c-.24.02-.44.25-.43.5v2.47H7.3c-1.08 0-1.86-.04-2.4-.04-1.64 0-1.25.43-1.25 3.65v4.47c0 3.66-.23 3.7 2.34 3.66l-1.34-1.1c-.1-.08-.18-.2-.2-.3 0-.17.07-.35.2-.45l1.96-1.6c-.03-.06-.04-.13-.04-.2v-4.48c0-.44.28-.72.72-.72H9.9v2.5c0 .36.5.6.8.38l4.93-3.93c.24-.18.24-.6 0-.78l-4.94-3.92c-.1-.08-.23-.13-.36-.12zm5.63 2.93l1.34 1.1c.1.07.18.2.2.33.02.16-.03.3-.16.4l-1.96 1.6c.02.07.06.13.06.22v4.47c0 .42-.3.72-.72.72h-2.66v-2.47c0-.3-.3-.53-.6-.47-.06.02-.12.05-.18.1l-4.94 3.93c-.24.18-.24.6 0 .78l4.94 3.92c.28.22.78-.02.78-.38v-2.5h2.66c4.27 0 3.65.67 3.65-3.62v-4.47c0-3.66.34-3.7-2.4-3.66zM13.06 57.66c-.23.03-.4.26-.4.5v2.47H7.28c-1.08 0-1.86-.04-2.4-.04-1.64 0-1.25.43-1.25 3.65v4.87l2.93-2.37v-2.5c0-.44.28-.72.72-.72h5.38v2.5c0 .36.5.6.78.38l4.94-3.93c.24-.18.24-.6 0-.78l-4.94-3.92c-.1-.1-.24-.14-.38-.12zm5.3 6.15l-2.92 2.4v2.52c0 .42-.3.72-.72.72h-5.4v-2.47c0-.3-.32-.53-.6-.47-.07.02-.13.05-.2.1L3.6 70.52c-.25.18-.25.6 0 .78l4.93 3.92c.28.22.78-.02.78-.38v-2.5h5.42c4.27 0 3.65.67 3.65-3.62v-4.47-.44zM19.25 78.8c-.1.03-.2.1-.28.17l-.9.9c-.44-.3-1.36-.25-3.35-.25H7.28c-1.08 0-1.86-.03-2.4-.03-1.64 0-1.25.43-1.25 3.65v.7l2.93.3v-1c0-.44.28-.72.72-.72h7.44c.2 0 .37.08.5.2l-1.8 1.8c-.25.26-.08.76.27.8l6.27.7c.28.03.56-.25.53-.53l-.7-6.25c0-.27-.3-.48-.55-.44zm-17.2 6.1c-.2.07-.36.3-.33.54l.7 6.25c.02.36.58.55.83.27l.8-.8c.02 0 .04-.02.04 0 .46.24 1.37.17 3.18.17h7.44c4.27 0 3.65.67 3.65-3.62v-.75l-2.93-.3v1.05c0 .42-.3.72-.72.72H7.28c-.15 0-.3-.03-.4-.1L8.8 86.4c.3-.24.1-.8-.27-.84l-6.28-.65h-.2zM4.88 98.6c-1.33 0-1.34.48-1.3 2.3l1.14-1.37c.08-.1.22-.17.34-.2.16 0 .34.08.44.2l1.66 2.03c.04 0 .07-.03.12-.03h7.44c.34 0 .57.2.65.5h-2.43c-.34.05-.53.52-.3.78l3.92 4.95c.18.24.6.24.78 0l3.94-4.94c.22-.27-.02-.76-.37-.77H18.4c.02-3.9.6-3.4-3.66-3.4H7.28c-1.08 0-1.86-.04-2.4-.04zm.15 2.46c-.1.03-.2.1-.28.2l-3.94 4.9c-.2.28.03.77.4.78H3.6c-.02 3.94-.45 3.4 3.66 3.4h7.44c3.65 0 3.74.3 3.7-2.25l-1.1 1.34c-.1.1-.2.17-.32.2-.16 0-.34-.08-.44-.2l-1.65-2.03c-.06.02-.1.04-.18.04H7.28c-.35 0-.57-.2-.66-.5h2.44c.37 0 .63-.5.4-.78l-3.96-4.9c-.1-.15-.3-.23-.47-.2zM4.88 117.6c-1.16 0-1.3.3-1.3 1.56l1.14-1.38c.08-.1.22-.14.34-.16.16 0 .34.04.44.16l2.22 2.75h7c.42 0 .72.28.72.72v.53h-2.6c-.3.1-.43.54-.2.78l3.92 4.9c.18.25.6.25.78 0l3.94-4.9c.22-.28-.02-.77-.37-.78H18.4v-.53c0-4.2.72-3.63-3.66-3.63H7.28c-1.08 0-1.86-.03-2.4-.03zm.1 1.74c-.1.03-.17.1-.23.16L.8 124.44c-.2.28.03.77.4.78H3.6v.5c0 4.26-.55 3.62 3.66 3.62h7.44c1.03 0 1.74.02 2.28 0-.16.02-.34-.03-.44-.15l-2.22-2.76H7.28c-.44 0-.72-.3-.72-.72v-.5h2.5c.37.02.63-.5.4-.78L5.5 119.5c-.12-.15-.34-.22-.53-.16zm12.02 10c1.2-.02 1.4-.25 1.4-1.53l-1.1 1.36c-.07.1-.17.17-.3.18zM5.94 136.6l2.37 2.93h6.42c.42 0 .72.28.72.72v1.25h-2.6c-.3.1-.43.54-.2.78l3.92 4.9c.18.25.6.25.78 0l3.94-4.9c.22-.28-.02-.77-.37-.78H18.4v-1.25c0-4.2.72-3.63-3.66-3.63H7.28c-.6 0-.92-.02-1.34-.03zm-1.72.06c-.4.08-.54.3-.6.75l.6-.74zm.84.93c-.12 0-.24.08-.3.18l-3.95 4.9c-.24.3 0 .83.4.82H3.6v1.22c0 4.26-.55 3.62 3.66 3.62h7.44c.63 0 .97.02 1.4.03l-2.37-2.93H7.28c-.44 0-.72-.3-.72-.72v-1.22h2.5c.4.04.67-.53.4-.8l-3.96-4.92c-.1-.13-.27-.2-.44-.2zm13.28 10.03l-.56.7c.36-.07.5-.3.56-.7zM17.13 155.6c-.55-.02-1.32.03-2.4.03h-8.2l2.38 2.9h5.82c.42 0 .72.28.72.72v1.97H12.9c-.32.06-.48.52-.28.78l3.94 4.94c.2.23.6.22.78-.03l3.94-4.9c.22-.28-.02-.77-.37-.78H18.4v-1.97c0-3.15.4-3.62-1.25-3.66zm-12.1.28c-.1.02-.2.1-.28.18l-3.94 4.9c-.2.3.03.78.4.8H3.6v1.96c0 4.26-.55 3.62 3.66 3.62h8.24l-2.36-2.9H7.28c-.44 0-.72-.3-.72-.72v-1.97h2.5c.37.02.63-.5.4-.78l-3.96-4.9c-.1-.15-.3-.22-.47-.2zM5.13 174.5c-.15 0-.3.07-.38.2L.8 179.6c-.24.27 0 .82.4.8H3.6v2.32c0 4.26-.55 3.62 3.66 3.62h7.94l-2.35-2.9h-5.6c-.43 0-.7-.3-.7-.72v-2.3h2.5c.38.03.66-.54.4-.83l-3.97-4.9c-.1-.13-.23-.2-.38-.2zm12 .1c-.55-.02-1.32.03-2.4.03H6.83l2.35 2.9h5.52c.42 0 .72.28.72.72v2.34h-2.6c-.3.1-.43.53-.2.78l3.92 4.9c.18.24.6.24.78 0l3.94-4.9c.22-.3-.02-.78-.37-.8H18.4v-2.33c0-3.15.4-3.62-1.25-3.66zM4.97 193.16c-.1.03-.17.1-.22.18l-3.94 4.9c-.2.3.03.78.4.8H3.6v2.68c0 4.26-.55 3.62 3.66 3.62h7.66l-2.3-2.84c-.03-.02-.03-.04-.05-.06H7.27c-.44 0-.72-.3-.72-.72v-2.7h2.5c.37.03.63-.48.4-.77l-3.96-4.9c-.12-.17-.34-.25-.53-.2zm12.16.43c-.55-.02-1.32.03-2.4.03H7.1l2.32 2.84.03.06h5.25c.42 0 .72.28.72.72v2.7h-2.5c-.36.02-.56.54-.3.8l3.92 4.9c.18.25.6.25.78 0l3.94-4.9c.26-.28 0-.83-.37-.8H18.4v-2.7c0-3.15.4-3.62-1.25-3.66z' fill='%23b9a2ca' stroke-width='0'/></svg>");
 }
@@ -1068,7 +963,6 @@ section#preview>div.card {
     padding-top: 0!important;
     top: 0!important;
 }
-
 #wmde-banner-app, #wmde-banner, #centralNotice {
     display: none;
     visibility: hidden;
@@ -1080,7 +974,6 @@ footer,#jp-post-flair,#comments-section,#actionbar,div.footer,div.post-cat-tags,
     display: none !important;
     visibility: hidden !important;
 }
-
 body {
     margin-bottom: 23rem;
 }
@@ -1091,7 +984,6 @@ body {
     display: none !important;
     visibility: hidden !important;
 }
-
 #main {
     width: 100% !important;
     padding-bottom: 13rem;
@@ -1116,7 +1008,6 @@ aside.newsletter-signup, aside.topicbox, a.navigation__subscription-link, footer
     display: none !important;
     visibility: hidden !important;
 }
-
 body {
     padding-bottom: 13rem;
 }
