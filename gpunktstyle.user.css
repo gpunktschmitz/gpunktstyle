@@ -511,9 +511,17 @@ span.content{
 }
 
 @-moz-document domain("kleinanzeigen.de") {
-li.is-topad, div#consentBanner, div.login-overlay, div#liberty-my_ads-top-banner, div#liberty-home-billboard, section#home-gallery, div#brws_banner-supersize, div.srp-header, div.j-zsrp-infobox, [data-liberty-position-name=home-billboard], [data-liberty-position-name^=my][data-liberty-position-name$=top-banner], [data-liberty-position-name^=vip][data-liberty-position-name$=billboard], section#vap-smlrads {
+    #car-financing-frontend,
+    li.ad-listitem:has(article>div.aditem-main>div.aditem-main--bottom>div>a>div.badge-hint-pro-small-srp),
+    li.ad-listitem:has(article>div.aditem-main>div.aditem-main--middle>div.aditem-main--bottom>div>a>div.badge-hint-pro-small-srp),li.is-topad, div#consentBanner, div.login-overlay, div#liberty-my_ads-top-banner, div#liberty-home-billboard, section#home-gallery, div#brws_banner-supersize, div.srp-header, div.j-zsrp-infobox, [data-liberty-position-name=home-billboard], [data-liberty-position-name^=my][data-liberty-position-name$=top-banner], [data-liberty-position-name^=vip][data-liberty-position-name$=billboard], section#vap-smlrads {
     display: none !important;
     visibility: hidden !important;
+    border: none;
+}
+.is-highlight, .highlighttest .ad-listitem.is-highlight {
+    background-color: var(--kds-sema-color-surface);
+    border: 1px solid var(--kds-sema-color-utility-nonessential);
+    
 }
 html {
     overflow: initial !important
