@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.78.0
+@version        0.78.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -493,7 +493,7 @@ html {
 }
 
 @-moz-document domain("howtogeek.com") {
-footer,aside,div.affiliate-sponsored,div.nav-right {
+footer,aside,div.affiliate-sponsored,div.nav-right,.related-single  {
     display: none !important;
     visibility: hidden !important;
 }
