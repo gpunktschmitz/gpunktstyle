@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.78.2
+@version        0.79.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -581,6 +581,13 @@ div#primary {
 
 @-moz-document domain("lifehacker.com") {
 section[data-ga-module="content-header"]>div.custom-background-image, div[data-spotim-module="default"],div[data-spotim-app="reactions"],ow-ads_conversation, footer, aside {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("linkedin.com") {
+div.top-level-modal-container {
     display: none !important;
     visibility: hidden !important;
 }
