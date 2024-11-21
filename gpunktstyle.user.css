@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.81.0
+@version        0.81.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -940,12 +940,15 @@ div.pencraft, div[class^="frontend-components-SubscribePrompt-module__background
 }
 
 @-moz-document  domain("askubuntu.com"),domain("stackoverflow.com"), domain("superuser.com"), domain("stackexchange.com"), domain("serverfault.com") {
-iframe,div#js-ai-search-alpha-popover,div#divQuestionFollowFeaturePopover,div#onetrust-banner-sdk,div#left-sidebar,div#sidebar,div.js-dismissable-hero,li.js-freemium-cta, div.mb24 {
+aside,footer,#announcement-banner,h2.bottom-notice,iframe,div#js-ai-search-alpha-popover,div#divQuestionFollowFeaturePopover,div#onetrust-banner-sdk,div#left-sidebar,div#sidebar,div.js-dismissable-hero,li.js-freemium-cta, div.mb24 {
     display: none !important;
     visibility: hidden !important;
 }
 div#mainbar {
     width: 100% !important;
+}
+#content {
+    padding-bottom: 13rem;
 }
 }
 
