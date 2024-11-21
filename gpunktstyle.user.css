@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.77.0
+@version        0.78.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -379,6 +379,13 @@ div.signup-cta.alert.alert-info {
 }
 .ghacks-content {
     width: 100%;
+}
+}
+
+@-moz-document domain("google.com") {
+iframe {
+    display: none !important;
+    visibility: hidden !important;
 }
 }
 
