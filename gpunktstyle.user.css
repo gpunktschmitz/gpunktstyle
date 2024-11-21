@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.80.2
+@version        0.81.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -791,6 +791,13 @@ div.ct-content {
 }
 body.didomi-popup-open {
     overflow: unset !important;
+}
+}
+
+@-moz-document domain("sharepains.com") {
+iframe, div[id^="formillapopup-"], #formillaModalBackground {
+    display: none !important;
+    visibility: hidden !important;
 }
 }
 
