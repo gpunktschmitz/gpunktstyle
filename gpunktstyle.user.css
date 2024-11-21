@@ -91,9 +91,12 @@ body {
 }
 
 @-moz-document domain("addictivetips.com") {
-a[rel="sponsored"], .vpndeal, #vpn, .nordvpn, .gotosite, .pro-con {
+aside.sidebar,a[rel="sponsored"], .vpndeal, #vpn, .nordvpn, .gotosite, .pro-con {
     display: none !important;
     visibility: hidden !important;
+}
+main.container section.main-content {
+    max-width: 100% !important;
 }
 }
 
