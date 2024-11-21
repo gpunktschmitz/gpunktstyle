@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.80.0
+@version        0.80.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -640,7 +640,7 @@ body.News_article #content {
 }
 
 @-moz-document domain("msn.com") {
-div:has(>div[class^="backdrop-DS-"]),div[class^="newsContainer-DS"],action-tray, div.consumption-page-content-header, div.consumption-page-gridarea_rail, div[class^="consumption-feed-content consumptionFeed_nextArticle-"], div.consumption-page-feed-wrapper, #consumption-feed-common-header, div[class^="navBarContainer-DS-EntryPoint"], a[class*="feedback_link_default"], footer, div[id^="WeatherRightRail"], iframe, div[class^="feedbackRow"], div[class^="weatherWatcherBannerWrapper"], div[class^="neighborObserverV2"], .background-DS-EntryPoint1-2, #WeatherInsightsSection-ScreenWidthServerWeather-c4,#WeatherInsightsSection-ScreenWidth-c4, .floatButton-DS-EntryPoint1-1, .mobileAppPromotion-DS-EntryPoint1-1, .newsContent-DS-EntryPoint1-1, #header, div#m-locs>div[class^="BubbleMessageContainer"] {
+button#newsContentTitleButton, div[class^="weatherMobileUpsellContainer"], div[id^="WeatherFunFact"], div.weaNaAdsCarSection-DS-EntryPoint1-1, #pageBlock_news,div[class^="tooltipContainer"], div[class^="newsContainer-"], div:has(div[class^="customizePopupHeader-"]),div:has(>div[class^="backdrop-DS-"]),div[class^="newsContainer-DS"],action-tray, div.consumption-page-content-header, div.consumption-page-gridarea_rail, div[class^="consumption-feed-content consumptionFeed_nextArticle-"], div.consumption-page-feed-wrapper, #consumption-feed-common-header, div[class^="navBarContainer-DS-EntryPoint"], a[class*="feedback_link_default"], footer, div[id^="WeatherRightRail"], iframe, div[class^="feedbackRow"], div[class^="weatherWatcherBannerWrapper"], div[class^="neighborObserverV2"], .background-DS-EntryPoint1-2, #WeatherInsightsSection-ScreenWidthServerWeather-c4,#WeatherInsightsSection-ScreenWidth-c4, .floatButton-DS-EntryPoint1-1, .mobileAppPromotion-DS-EntryPoint1-1, .newsContent-DS-EntryPoint1-1, #header, div#m-locs>div[class^="BubbleMessageContainer"] {
     display: none !important;
     visibility: hidden !important;
 }
@@ -665,6 +665,9 @@ div:has(>div[class^="backdrop-DS-"]),div[class^="newsContainer-DS"],action-tray,
 }
 .summaryCardShowAnimation-DS-EntryPoint1-1 {
     margin-top: 0px;
+}
+#root div[class^="locationBarPlaceHolder"] {
+    position: unset !important;
 }
 }
 
