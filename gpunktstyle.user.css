@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.78.1
+@version        0.78.2
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -569,9 +569,13 @@ html.ReactModal__Html--open {
 }
 
 @-moz-document domain("lazyadmin.nl") {
-div.modal-container {
+div.site-footer, div#right-sidebar, div#respond, aside, div#related_posts_below_content, div.inline-container,div#lazy_note,div.modal-container {
     display: none !important;
     visibility: hidden !important;
+}
+div#primary {
+    width: 100%;
+    padding-bottom: 23rem;
 }
 }
 
