@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.75.1
+@version        0.76.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -362,6 +362,13 @@ article {
 .modal-backdrop.show {
     visibility: hidden !important;
     display: none !important;
+}
+}
+
+@-moz-document domain("forum.obsidian.md") {
+div.signup-cta.alert.alert-info {
+    display: none !important;
+    visibility: hidden !important;
 }
 }
 
