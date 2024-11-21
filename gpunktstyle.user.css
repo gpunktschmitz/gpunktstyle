@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.73.0
+@version        0.74.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -97,6 +97,17 @@ aside.sidebar,a[rel="sponsored"], .vpndeal, #vpn, .nordvpn, .gotosite, .pro-con 
 }
 main.container section.main-content {
     max-width: 100% !important;
+}
+}
+
+@-moz-document domain("alitajran.com") {
+ul#menu-main>li#menu-item-10883, aside, div#respond, #footer-bottom, footer, div.post-pagination-wrap, div.wpex-social-share, div.related-posts, section.author-bio {
+    display: none !important;
+    visibility: hidden !important;
+}
+#primary {
+    width: 100%;
+    padding-bottom: 23rem;
 }
 }
 
