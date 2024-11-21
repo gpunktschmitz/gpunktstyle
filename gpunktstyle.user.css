@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.81.1
+@version        0.82.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1102,6 +1102,23 @@ section#preview>div.card {
 #wmde-banner-app, #wmde-banner, #centralNotice {
     display: none;
     visibility: hidden;
+}
+}
+
+@-moz-document domain("windowspro.de") {
+aside, footer, nav, .comment-form, #comments, #node-bottom, .block-block {
+    display: none !important;
+    visibility: hidden !important;
+}
+div.main-container>div.row>section.col-sm-8 {
+    width: 100%;
+}
+div.main-container {
+    margin-bottom: 42rem;
+    padding-bottom: 3rem;
+}
+header {
+    border: none !important;
 }
 }
 
