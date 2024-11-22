@@ -173,7 +173,7 @@ div.fxs-topbar-toast:has(div.fxs-nps-survey) {
 
 a.fxs-topbar-copilot {
     display: none !important;
-    visibility: hidden !important;    
+    visibility: hidden !important;
 }
 }
 
@@ -548,7 +548,7 @@ span.content{
 .is-highlight, .highlighttest .ad-listitem.is-highlight {
     background-color: var(--kds-sema-color-surface);
     border: 1px solid var(--kds-sema-color-utility-nonessential);
-    
+
 }
 html {
     overflow: initial !important
@@ -1042,10 +1042,10 @@ div.board_task:has(button.priority_1) {
 }
 
 @-moz-document domain("toot.cafe") {
-div.account__relationship .fa-plus, .fa-user-plus {
+div.account__relationship button[title="Add to list"] {
     color: #83ae83;
 }
-div.account__relationship .fa-times, .fa-user-times {
+div.account__relationship button[title="Remove from list"] {
     color: #ae8483 !important;
 }
 article:has(.poll) div.status__wrapper {
