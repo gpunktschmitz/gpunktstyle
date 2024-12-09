@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.84.2
+@version        0.84.3
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -582,7 +582,7 @@ html {
 }
 
 @-moz-document domain("komoot.com") {
-#banner_portal_container {
+header>ul>li>div:has(p), div.tw-bg-canvas>div.tw-bg-card, #banner_portal_container {
     display: none !important;
     visibility: hidden !important;
 }
