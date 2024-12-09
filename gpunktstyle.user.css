@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.84.1
+@version        0.84.2
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -488,6 +488,9 @@ div.a-layout__main, article#meldung, article#meldung>div>header, div[class^="art
 }
 .sp-message-open .topnavigation-menu, .sp-message-open .topnavigation-search {
     display: block
+}
+body {
+    padding-bottom: 42rem;
 }
 }
 
