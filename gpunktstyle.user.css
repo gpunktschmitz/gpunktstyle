@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.82.0
+@version        0.82.2
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -417,7 +417,7 @@ main#main {
 }
 
 @-moz-document domain("getpocket.com") {
-.css-9tbi1t {
+aside, .css-9tbi1t {
     display: none !important;
     visibility: hidden !important;
 }
