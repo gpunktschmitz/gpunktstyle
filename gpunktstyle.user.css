@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.83.1
+@version        0.83.2
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -59,9 +59,12 @@ body {
 }
 
 @-moz-document domain("adamfowlerit.com") {
-nav.post-navigation, .sharedaddy, footer, #comments, .jp-relatedposts, #secondary {
+nav.post-navigation, .sharedaddy, footer, #comments, .jp-relatedposts, #secondary, #jp-relatedposts {
     display: none !important;
     visibility: hidden !important;
+}
+#page {
+    margin-bottom: 23rem;
 }
 #primary>#main {
     margin:0;
