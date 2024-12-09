@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.82.3
+@version        0.83.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -304,6 +304,16 @@ body.ReactModal__Body--open {
 div[data-testid="cookies-dialog"] {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("dict.leo.org") {
+div.m-v-large, nav#right, div[data-dz-ui="adv-drectangle2"], div[data-dz-ui="adv-sitebar"],div[data-dz-ui="adv-halfpage"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+#secondColumn {
+    margin-top: 0px !important;
 }
 }
 
