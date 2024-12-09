@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.86.2
+@version        0.86.3
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -849,7 +849,7 @@ body {
 }
 
 @-moz-document domain("techcommunity.microsoft.com") {
-div.ui-widget-overlay, div.lia-panel-dialog-modal-valuesurvey {
+div[class^="MessageViewStandard_lia-footer__"], article[class^="MessageAuthorBio_lia-footer-wrapper__"], div.ui-widget-overlay, div.lia-panel-dialog-modal-valuesurvey {
     display: none !important;
     visibility: hidden !important;
 }
