@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.83.2
+@version        0.84.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -344,6 +344,16 @@ div.ReactModal__Overlay--after-open {
 div.header--aside__item, div[data-testid="serp-popover-promo"],div.text_promo.header--text_promo,div.zcm--right.js-zcm-right,p[class^="tagline_tagline"] {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("duden.de") {
+div.tabloid__footer-bottom,div.tabloid__footer-top,p>a[href^="https://angebot."], #block-numero-lexemleaderboardunten-2 {
+    display: none !important;
+    visibility: hidden !important;
+}
+body {
+    margin-bottom: 23rem;
 }
 }
 
