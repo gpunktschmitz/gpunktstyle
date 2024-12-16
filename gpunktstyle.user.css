@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.86.5
+@version        0.87.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -866,6 +866,20 @@ iframe, footer, header, div.breadcrumbs-widget, div.taxonomies, div.heise-affili
 body {
     background-color: white;
     padding-bottom: 14rem;
+}
+}
+
+@-moz-document domain("thesun.co.uk") {
+footer,div.article__footer, div.tags--article, div#sim-module, iframe, div.rail--classic, div.read-more-container, #sidebar, div.newsletter-container-placeholder, #page-social {
+    display: none !important;
+    visibility: hidden !important;
+}
+div.sun-row__article-content>main {
+    flex-shrink: 0;
+    width: 100% !important;
+}
+article {
+    margin-bottom: 43rem;
 }
 }
 
