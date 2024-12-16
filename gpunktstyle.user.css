@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.86.4
+@version        0.86.5
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -391,12 +391,15 @@ div.signup-cta.alert.alert-info {
 }
 
 @-moz-document domain("ghacks.net") {
-.ghacks-sidebar {
+div:has(>a[rel="prev"]), h3.heading--small, div.evergreen-posts, #site-footer, div#comments, div.the_related_part, aside, #snippet-box, iframe, .ghacks-sidebar {
     visibility: hidden !important;
     display: none !important;
 }
 .ghacks-content {
     width: 100%;
+}
+body {
+    margin-bottom: 33rem;
 }
 }
 
