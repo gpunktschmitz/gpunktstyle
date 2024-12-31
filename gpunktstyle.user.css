@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.87.2
+@version        0.87.3
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -122,7 +122,7 @@ div[class^="AdsenseAd"] {
 }
 
 @-moz-document domain("amazon.de") {
-div.a-box.attach-warranty-box, div[class^="_osu-widget-cards"], a.prime-popover-link, a#nav-link-amazonprime, div[cel_widget_id^="MAIN-FEEDBACK-"],div[data-cel-widget^="search_result_"]>div>div[data-csa-c-content-id^="amzn1.sym."], div.AdHolder, .maple-banner,div#marketing, div#widget-rightUpsellSlot, div#maple-smart-wagon-full-page, div#issuancePriceblockAmabot_feature_div, div#sc-new-upsell,span[data-action="sp-cc"], #cbcc_banner, div[id^="smart-wagon-recommendations"], div[role^="complementary"], #navFooter {
+div[class^="_universal-detail-ilm-card_style_desktop__"],div#a-popover-select-billing-address,span.single-address,div.prime-cart-upsell,#cart-item-recs,div[id^="tellAFriendBox"],#bbop,#prime-updp-action-container>#signup-cta-card,#primeAutomaticPopoverAdContent h1,#primeAutomaticPopoverAdContent h2,#prime-disclaimer-section,#prime-legal-section,span[data-prime-metric],#osu-prime-recommendations,div.prime-fake-radio,div[id^="typ-recommendations-stripe"],div[data-card-metrics-id^="ad-left-over-card"],div[class^="_video-player_view_pvea-recommendation-card-wrapper"], div.a-box.attach-warranty-box, div[class^="_osu-widget-cards"], a.prime-popover-link, a#nav-link-amazonprime, div[cel_widget_id^="MAIN-FEEDBACK-"],div[data-cel-widget^="search_result_"]>div>div[data-csa-c-content-id^="amzn1.sym."], div.AdHolder, .maple-banner,div#marketing, div#widget-rightUpsellSlot, div#maple-smart-wagon-full-page, div#issuancePriceblockAmabot_feature_div, div#sc-new-upsell,span[data-action="sp-cc"], #cbcc_banner, div[id^="smart-wagon-recommendations"], div[role^="complementary"], #navFooter {
     display: none !important;
     visibility: hidden !important;
 }
