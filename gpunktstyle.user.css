@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.91.0
+@version        0.92.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1197,6 +1197,13 @@ section#preview>div.card {
     top: 0!important;
 }
 #wmde-banner-app, #wmde-banner, #centralNotice {
+    display: none;
+    visibility: hidden;
+}
+}
+
+@-moz-document domain("windowscentral.com") {
+#slice-container-newsletterForm-exitIntent {
     display: none;
     visibility: hidden;
 }
