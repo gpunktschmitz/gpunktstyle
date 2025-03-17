@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.87.4
+@version        0.87.5
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -664,7 +664,7 @@ body.News_article #content {
 }
 
 @-moz-document domain("msn.com") {
-button#newsContentTitleButton, div[class^="weatherMobileUpsellContainer"], div[id^="WeatherFunFact"], div.weaNaAdsCarSection-DS-EntryPoint1-1, #pageBlock_news, div[class^="newsContainer-"], div:has(div[class^="customizePopupHeader-"]),div:has(>div[class^="backdrop-DS-"]),div[class^="newsContainer-DS"],action-tray, div.consumption-page-content-header, div.consumption-page-gridarea_rail, div[class^="consumption-feed-content consumptionFeed_nextArticle-"], div.consumption-page-feed-wrapper, #consumption-feed-common-header, div[class^="navBarContainer-DS-EntryPoint"], a[class*="feedback_link_default"], footer, div[id^="WeatherRightRail"], iframe, div[class^="feedbackRow"], div[class^="weatherWatcherBannerWrapper"], div[class^="neighborObserverV2"], .background-DS-EntryPoint1-2, #WeatherInsightsSection-ScreenWidthServerWeather-c4,#WeatherInsightsSection-ScreenWidth-c4, .floatButton-DS-EntryPoint1-1, .mobileAppPromotion-DS-EntryPoint1-1, .newsContent-DS-EntryPoint1-1, #header, div#m-locs>div[class^="BubbleMessageContainer"] {
+div.groupContainerSub-DS-EntryPoint1-1,div.containerDialog-DS-EntryPoint1-1.showDialog,button#newsContentTitleButton, div[class^="weatherMobileUpsellContainer"], div[id^="WeatherFunFact"], div.weaNaAdsCarSection-DS-EntryPoint1-1, #pageBlock_news, div[class^="newsContainer-"], div:has(div[class^="customizePopupHeader-"]),div:has(>div[class^="backdrop-DS-"]),div[class^="newsContainer-DS"],action-tray, div.consumption-page-content-header, div.consumption-page-gridarea_rail, div[class^="consumption-feed-content consumptionFeed_nextArticle-"], div.consumption-page-feed-wrapper, #consumption-feed-common-header, div[class^="navBarContainer-DS-EntryPoint"], a[class*="feedback_link_default"], footer, div[id^="WeatherRightRail"], iframe, div[class^="feedbackRow"], div[class^="weatherWatcherBannerWrapper"], div[class^="neighborObserverV2"], .background-DS-EntryPoint1-2, #WeatherInsightsSection-ScreenWidthServerWeather-c4,#WeatherInsightsSection-ScreenWidth-c4, .floatButton-DS-EntryPoint1-1, .mobileAppPromotion-DS-EntryPoint1-1, .newsContent-DS-EntryPoint1-1, #header, div#m-locs>div[class^="BubbleMessageContainer"] {
     display: none !important;
     visibility: hidden !important;
 }
