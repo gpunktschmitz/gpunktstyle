@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.89.0
+@version        0.90.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -998,6 +998,16 @@ div[data-qa-id^="product-details-page"]>div.mb-5 {
 }
 div[data-qa-id^="product-details-page"]>div.mb-5>div.mt-10 {
     grid-column: unset !important;
+}
+}
+
+@-moz-document domain("smarttechways.com") {
+.nav-previous, .nav-next, div[id^="atatags-"], footer, #comments, #jp-post-flair, #actionbar, #secondary {
+    display: none !important;
+    visibility: hidden !important;
+}
+.site-content {
+    width: 100%;
 }
 }
 
