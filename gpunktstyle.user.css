@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.87.5
+@version        0.88.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -434,6 +434,19 @@ main#main {
 }
 #article div.articleContent {
     float: left;
+}
+}
+
+@-moz-document domain("germanpowershell.com") {
+div:has(>blockquote), footer, div.avenue-sidebar, aside {
+    display: none !important;
+    visibility: hidden !important;
+}
+div:has(>article) {
+    width: 100% !important;
+}
+article {
+    margin-bottom: 23rem;
 }
 }
 
