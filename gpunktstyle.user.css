@@ -721,6 +721,13 @@ div[role=alertdialog],div#uhfCookieAlert,div#rail-column,div#ocFooterWrapper,div
 }
 }
 
+@-moz-document domain("entra.microsoft.com") {
+a[title="Copilot"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
 @-moz-document domain("learn.microsoft.com") {
 #survey-popover {
     visibility: hidden !important;
