@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.87.3
+@version        0.87.4
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -779,6 +779,18 @@ i[data-icon-name="CalendarEmptyRegular"] {
 }
 div:has(>div>div>div>div>div>i[data-icon-name="CalendarEmptyRegular"])>div {
     background-color: #eaebeb;
+}
+button[title="RSVP"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+div#FlexPane_Overflow_Container:has(div#FlexPane_OwaDiagFeedback) {
+    display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+}
+div#FlexPane_Overflow_Container:has(div#FlexPane_OwaDiagFeedback) div {
+    width: 0 !important;
 }
 }
 
