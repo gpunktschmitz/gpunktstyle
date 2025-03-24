@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.92.0
+@version        0.92.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -780,28 +780,28 @@ div.GSVDf {
 }
 i[data-icon-name="CalendarCancelRegular"] {
     color: #bf3434;
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 div:has(>div>div>div>div>div>i[data-icon-name="CalendarCancelRegular"])>div {
     background-color: #fae8e8;
 }
 i[data-icon-name="CalendarQuestionMarkRegular"] {
     color: #08278c;
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 div:has(>div>div>div>div>div>i[data-icon-name="CalendarQuestionMarkRegular"])>div {
     background-color: #e5f5f6;
 }
 i[data-icon-name="CalendarCheckmarkRegular"] {
     color: #30720a;
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 div:has(>div>div>div>div>div>i[data-icon-name="CalendarCheckmarkRegular"])>div {
     background-color: #ebfade;
 }
 i[data-icon-name="CalendarEmptyRegular"] {
     color: #787879;
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 div:has(>div>div>div>div>div>i[data-icon-name="CalendarEmptyRegular"])>div {
     background-color: #eaebeb;
