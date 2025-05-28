@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.92.1
+@version        0.93.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -981,6 +981,12 @@ div#app {
 }
 }
 
+@-moz-document domain("app.raindrop.io") {
+aside.svSidebar>div>a[title="AI Suggestions"],aside.svSidebar>a[class^="upgrade"] {
+    display: none;
+    visibility: hidden;
+}
+}
 @-moz-document domain("raspberrytips.com") {
 div.ml-webforms-popup-overlay,iframe {
     display: none !important;
