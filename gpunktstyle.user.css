@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.93.0
+@version        0.94.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -948,16 +948,6 @@ section.modul--newslist, div:has(> div#ad-Billboard), section.article__linkbox, 
 }
 footer {
     margin-top: 6rem;
-}
-}
-
-@-moz-document domain("norisbank.de") {
-div.aem-wrapper {
-    visibility: hidden !important;
-    display: none !important;
-}
-body {
-    border-top: 0 !important;
 }
 }
 
