@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.94.0
+@version        0.95.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -18,16 +18,6 @@ body, :root.ccm-blocked, body.ccm-blocked {
 iframe[src^="https://accounts.google.com/gsi/iframe/select?client_id="], .snowflakes {
     display: none !important;
     visibility: hidden !important;
-}
-}
-
-@-moz-document domain("1blu.de") {
-body.glightbox-open>div#glightbox-body {
-    display: none !important;
-    visibility: hidden !important;
-}
-.glightbox-open {
-    overflow: unset !important;
 }
 }
 
