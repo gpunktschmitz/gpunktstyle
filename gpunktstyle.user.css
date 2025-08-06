@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.96.0
+@version        0.97.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -332,12 +332,6 @@ div.tabloid__footer-bottom,div.tabloid__footer-top,p>a[href^="https://angebot."]
 }
 body {
     margin-bottom: 23rem;
-}
-}
-
-@-moz-document domain("dynamics.com") {
-div#fluent-default-layer-host {
-    display: none;
 }
 }
 
