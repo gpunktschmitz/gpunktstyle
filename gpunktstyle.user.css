@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.100.1
+@version        0.101.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -389,6 +389,13 @@ body {
 
 @-moz-document domain("google.com") {
 iframe {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("joshwcomeau.com") {
+#toasty-portal {
     display: none !important;
     visibility: hidden !important;
 }
