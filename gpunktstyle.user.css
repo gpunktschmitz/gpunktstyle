@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.97.0
+@version        0.98.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -32,12 +32,13 @@ iframe,div[style="width: 100%;"]>h2,div[style="text-align: center; margin-top: 2
 }
 
 @-moz-document domain("9to5mac.com") {
-aside,div.meta__comment-count,div.related-guides,div.author-bio-container,div.infinite-wrap,div.google-news-link,div.article__youtube-video,#comments {
+h3.wp-block-heading, ul:has(>li>a[href^="https://amzn.to/"]),aside,div.meta__comment-count,div.related-guides,div.author-bio-container,div.infinite-wrap,div.google-news-link,div.article__youtube-video,#comments {
     display: none !important;
     visibility: hidden !important;
 }
 body {
     margin-bottom: 23rem;
+    padding-bottom: 0 !important;
 }
 }
 
@@ -448,30 +449,30 @@ button[data-testid="copilot-popover-button"],.signup-prompt-bg {
 }
 
 @-moz-document domain("golem.de") {
-    div.go-pc-teaser--highlight,article.go-teaser:has(>a>span.go-teaser__kicker>svg.go-plus-sign),article.go-teaser--variant-affiliate,div.go-ad-slot, div.go-teaser-block--carousel.go-teaser-block--highlight,div.go-newsletter-box-container,div.go-article-header__button-bar, div.go-article-footer__button-bar, footer,div.go-article__related-topics,hr,aside,ul.go-alink-list,div.go-embed-container,a.go-header__btn--testing,div.go-teaser-block--career,a.gsnw-link__article-header-button-bar,#topbanner {
-        display: none;
-        visibility: hidden;
-    }
+div.go-pc-teaser--highlight,article.go-teaser:has(>a>span.go-teaser__kicker>svg.go-plus-sign),article.go-teaser--variant-affiliate,div.go-ad-slot, div.go-teaser-block--carousel.go-teaser-block--highlight,div.go-newsletter-box-container,div.go-article-header__button-bar, div.go-article-footer__button-bar, footer,div.go-article__related-topics,hr,aside,ul.go-alink-list,div.go-embed-container,a.go-header__btn--testing,div.go-teaser-block--career,a.gsnw-link__article-header-button-bar,#topbanner {
+    display: none;
+    visibility: hidden;
+}
 
-    @layer golem.base.grid {
-        @media (min-width: 768px) {
-            .go-grid--rectangle {
-                grid-template-columns: [full-start] 1fr minmax(0,0) [full-end];
-            }
+@layer golem.base.grid {
+    @media (min-width: 768px) {
+        .go-grid--rectangle {
+            grid-template-columns: [full-start] 1fr minmax(0,0) [full-end];
         }
     }
+}
 
-    @layer golem.base.grid {
-        @media (min-width: 768px) {
-            :is(.go-grid--rectangle > *):nth-child(1) {
-                grid-column: full;
-            }
+@layer golem.base.grid {
+    @media (min-width: 768px) {
+        :is(.go-grid--rectangle > *):nth-child(1) {
+            grid-column: full;
         }
     }
+}
 
-    main>article {
-        padding-bottom: 23rem;
-    }
+main>article {
+    padding-bottom: 23rem;
+}
 }
 
 @-moz-document domain("goneo.de") {
