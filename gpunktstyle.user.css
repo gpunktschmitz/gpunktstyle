@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.103.1
+@version        0.103.2
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1236,12 +1236,15 @@ header {
 }
 
 @-moz-document domain("winfuture.de") {
-#to-startpage, #block, #footer, div:has(>div.social_link_comment), .more_links, .changelog_list, .summary_box, .primis_widget, .social_icons, #rightWrap {
+div#to-startpage, div#block.content_wrap,div#footer,div#taboola-below-article-thumbnails-desktop,div:has(>div.social_link_comment),div.more_links,div.changelog_list,div.summary_box,div.nointelliTXT,div.primis_widget, div.social_icons, div#rightWrap, #to-startpage, #block, #footer, div:has(>div.social_link_comment), .more_links, .changelog_list, .summary_box, .primis_widget, .social_icons, #rightWrap {
     display: none !important;
     visibility: hidden !important;
 }
-img.teaser_img,.primary_content,#centerWrap {
-    width: 100%;
+#centerWrap, .primary_content, .teaser_img {
+    width: 99%;
+}
+div#mainWrap{
+    margin-bottom: 23rem;
 }
 }
 
