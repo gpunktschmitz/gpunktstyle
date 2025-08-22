@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.104.0
+@version        0.104.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1138,7 +1138,7 @@ div.board_task:has(button.priority_2) {
 div.board_task:has(button.priority_1) {
     background-color: #2bff0017;
 }
-
+}
 
 @-moz-document domain("toot.cafe") {
 div.account__relationship button[title="Add to list"] {
