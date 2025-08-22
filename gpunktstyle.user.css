@@ -448,16 +448,30 @@ button[data-testid="copilot-popover-button"],.signup-prompt-bg {
 }
 
 @-moz-document domain("golem.de") {
-ul.social-tools, section.section-gpure, aside, div.subscribe-newsletter, div.teaser-widget, div.promos, #comments, #gts-clip, div.career-widget, ul.list-articles, div.specialletters, footer, div.topics, div.wraptusplit, #gservices, #job-market, .supplementary, #recently, li.li-reset, div.grcol3, div.grcol1, li.golemplus, div.activity, #hn1-golemplus  {
-    display: none !important;
-    visibility: hidden !important;
-}
-div.g4 {
-    width: 100%;
-}
-body {
-    margin-bottom: 23rem;
-}
+    div.go-pc-teaser--highlight,article.go-teaser:has(>a>span.go-teaser__kicker>svg.go-plus-sign),article.go-teaser--variant-affiliate,div.go-ad-slot, div.go-teaser-block--carousel.go-teaser-block--highlight,div.go-newsletter-box-container,div.go-article-header__button-bar, div.go-article-footer__button-bar, footer,div.go-article__related-topics,hr,aside,ul.go-alink-list,div.go-embed-container,a.go-header__btn--testing,div.go-teaser-block--career,a.gsnw-link__article-header-button-bar,#topbanner {
+        display: none;
+        visibility: hidden;
+    }
+
+    @layer golem.base.grid {
+        @media (min-width: 768px) {
+            .go-grid--rectangle {
+                grid-template-columns: [full-start] 1fr minmax(0,0) [full-end];
+            }
+        }
+    }
+
+    @layer golem.base.grid {
+        @media (min-width: 768px) {
+            :is(.go-grid--rectangle > *):nth-child(1) {
+                grid-column: full;
+            }
+        }
+    }
+
+    main>article {
+        padding-bottom: 23rem;
+    }
 }
 
 @-moz-document domain("goneo.de") {
