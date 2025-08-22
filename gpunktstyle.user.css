@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.103.3
+@version        0.104.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1312,5 +1312,16 @@ aside.newsletter-signup, aside.topicbox, a.navigation__subscription-link, footer
 }
 body {
     padding-bottom: 13rem;
+}
+}
+
+@-moz-document domain("zueschen.eu") {
+div#secondary, div#comments, div#entry-author-info, div.widget_text.awac-wrapper {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+div#content {
+    width: 98% !important;
 }
 }
