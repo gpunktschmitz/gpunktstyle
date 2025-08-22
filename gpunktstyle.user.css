@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.99.1
+@version        0.100.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1238,6 +1238,28 @@ footer,#jp-post-flair,#comments-section,#actionbar,div.footer,div.post-cat-tags,
 }
 body {
     margin-bottom: 23rem;
+}
+}
+
+@-moz-document domain("blog.workinghardinit.work") {
+footer, #comments, #jp-relatedposts, #secondary, div.sharedaddy, header#branding>a, #nav-single {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+#content {
+    width: 85%;
+    padding-bottom: 23rem;
+}
+
+#site-title a, #site-description {
+    color: white;
+}
+
+code {
+    background-color: lightgray;
+    color: black;
+    padding: 23px;
 }
 }
 
