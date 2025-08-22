@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.104.1
+@version        0.104.2
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -464,7 +464,7 @@ div.go-pc-teaser--highlight,article.go-teaser:has(>a>span.go-teaser__kicker>svg.
 @layer golem.base.grid {
     @media (min-width: 768px) {
         .go-grid--rectangle {
-            grid-template-columns: [full-start] 1fr minmax(0,0) [full-end];
+            grid-template-columns: "[full-start] 1fr minmax(0,0) [full-end]";
         }
     }
 }
