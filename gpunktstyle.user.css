@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.103.0
+@version        0.103.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -873,7 +873,7 @@ main {
 }
 
 @-moz-document domain("taz.de") {
-#footer, #tzi-paywahl-fg, div.even.sect.sect_text, div.full.community.page.last.odd.n3, div.full.no_rightbar.below.news.page.even.n2, .tail, .rightbar, p.caption, .tziBottomWrapper, div.even.sect.sect_text>.sectbody, .shariff {
+section:has(>div>div.shariff-wrapper),section:has(>div>div.typo-teaser-text-bold),section:has(>div>div#content_nav),section:has(>div#kommune),section.article-produktteaser-container,section#articleTeaser, div.tzi-bottom-container, div.force-full-dotted:has(>section), #footer, #tzi-paywahl-fg, div.even.sect.sect_text, div.full.community.page.last.odd.n3, div.full.no_rightbar.below.news.page.even.n2, .tail, .rightbar, p.caption, .tziBottomWrapper, div.even.sect.sect_text>.sectbody, .shariff {
     display: none !important;
     visibility: hidden !important;
 }
