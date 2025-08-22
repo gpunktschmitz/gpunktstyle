@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.101.1
+@version        0.103.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1010,6 +1010,13 @@ div[data-qa-id^="product-details-page"]>div.mb-5>div.mt-10 {
 }
 .site-content {
     width: 100%;
+}
+}
+
+@-moz-document domain("spguides.com") {
+div[id^="elementor-popup-modal-"] {
+    display: none;
+    visibility: hidden;
 }
 }
 
