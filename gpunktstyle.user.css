@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.100.0
+@version        0.100.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -140,7 +140,7 @@ header#donate_banner{
 }
 
 @-moz-document domain("arstechnica.com") {
-footer,#article-footer-wrap,#article-footer-wrap,#social-footer,section.article-author,div.xrail,aside#social-left {
+div:has(>div>div.post-navigation),div.single-most-read, #fides-overlay,footer,#article-footer-wrap,#article-footer-wrap,#social-footer,section.article-author,div.xrail,aside#social-left {
     display: none !important;
     visibility: hidden !important;
 }
