@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.103.2
+@version        0.103.3
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -494,7 +494,7 @@ div#consent {
     overflow-y: scroll !important;
     position: relative !important;
 }
-a.abo-link, .a-article-header__service,div.perf-cls-reduc-leaderboard, a-lightbox[src*="HSP_"], .cleverpush-bell, footer, aside, .inread-cls-reduc, .a-layout__sidebar, a-opt-in[type="Preisvergleichinternetservices"],a[href="/plus"], .branding, div[id^="sp_message_container_"], div.a-layout__container.a-layout__container--full-width, div.header-logo__plus-group, section[data-component="MarketingTeaserModule"], div[data-upscore-zone^="homepage_teaser_list"], a-sticky-footer, article[data-component="TeaserContainer"]:has(footer):has(svg[preserveAspectRatio]), section.article-sidebar, article#meldung>div>aside, div.a-layout:has(div.stage--heiseplus), div[data-component="RecommendationBox"], a-img[src="/Magazin-Banner/ct_desktop.jpg"] {
+div[id^="pvg-widget"], iframe, a.abo-link, .a-article-header__service,div.perf-cls-reduc-leaderboard, a-lightbox[src*="HSP_"], .cleverpush-bell, footer, aside, .inread-cls-reduc, .a-layout__sidebar, a-opt-in[type="Preisvergleichinternetservices"],a[href="/plus"], .branding, div[id^="sp_message_container_"], div.a-layout__container.a-layout__container--full-width, div.header-logo__plus-group, section[data-component="MarketingTeaserModule"], div[data-upscore-zone^="homepage_teaser_list"], a-sticky-footer, article[data-component="TeaserContainer"]:has(footer):has(svg[preserveAspectRatio]), section.article-sidebar, article#meldung>div>aside, div.a-layout:has(div.stage--heiseplus), div[data-component="RecommendationBox"], a-img[src="/Magazin-Banner/ct_desktop.jpg"] {
     display: none !important;
     visibility: hidden !important;
 }
