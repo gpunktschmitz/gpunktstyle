@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.104.2
+@version        0.105.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -671,13 +671,6 @@ body.News_article #content {
     width: 100%;
     margin-top: 2rem;
     margin-bottom: 33rem;
-}
-}
-
-@-moz-document domain("medium.com") {
-#root > div > div > div:nth-child(2) > div > div {
-    display: none !important;
-    visibility: hidden !important;
 }
 }
 
