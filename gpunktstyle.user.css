@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.105.1
+@version        0.105.2
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -99,7 +99,7 @@ ul#menu-main>li#menu-item-10883, aside, div#respond, #footer-bottom, footer, div
 }
 
 @-moz-document domain("alternativeto.net") {
-div[class^="AdsenseAd"] {
+div[style]:has(>div>div[class^="Adsense"]),div[class^="AdsenseAd"] {
     display: none !important;
     visibility: hidden !important;
 }
