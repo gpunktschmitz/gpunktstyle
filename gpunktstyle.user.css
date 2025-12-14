@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.105.0
+@version        0.105.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1014,7 +1014,7 @@ div[id^="elementor-popup-modal-"] {
 }
 
 @-moz-document domain("substack.com") {
-div.pencraft, div[class^="frontend-components-SubscribePrompt-module__background"], div.single-post-section, blockquote, div.subscription-widget-wrap, div.subscribe-footer {
+div[class^="frontend-components-SubscribePrompt-module__background"], div.single-post-section, blockquote, div.subscription-widget-wrap, div.subscribe-footer {
     display: none !important;
     visibility: hidden !important;
 }
