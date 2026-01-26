@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.105.3
+@version        0.106.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1071,6 +1071,17 @@ body.noscroll,body.modal-open {
 div.appetizer-text>span {
     margin-left: 1em;
 }
+}
+
+@-moz-document domain("swr.de") {
+    footer, div.container:has(>footer), article>div:has(>div>div>h2.section-label), div#playerbar, aside, article.teaser {
+        display: none !important;
+        visibility: hidden !important;
+    }
+
+    main {
+        padding-bottom: 23rem;
+    }
 }
 
 @-moz-document domain("tagesschau.de") {
