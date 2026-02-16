@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.107.0
+@version        0.108.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -558,6 +558,21 @@ body {
 section.insight-modal {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("insideevs.de") {
+div[data-m1-ad-label="ANZEIGE"], div.isBottomShare, footer, section.relatedContent-new, div.stroer-ap_wrapper, div.outstream_partner, section.embed-item, div.rec-strip, aside {
+    display: none;
+    visibility: hidden;
+}
+
+div.m1-newsfeed_grid {
+    max-width: 100%;
+}
+
+div.postBody {
+    margin-bottom: 23rem;
 }
 }
 
