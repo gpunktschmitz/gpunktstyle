@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.114.2
+@version        0.115.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -171,6 +171,13 @@ div.va-maincol {
 
 @-moz-document domain("bikerumor.com") {
 div.flyout_newsletter_center.is-visible {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("biozentrale.de") {
+#Compliance-cs-banner {
     display: none !important;
     visibility: hidden !important;
 }
