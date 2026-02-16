@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.110.0
+@version        0.111.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -888,6 +888,13 @@ div.ct-content {
     max-width: 100%;
     flex: 100%;
     padding-bottom: 80%;
+}
+}
+
+@-moz-document domain("powershellfaqs.com") {
+div[id^="elementor-popup-modal-"] {
+    display: none;
+    visibility: hidden;
 }
 }
 
