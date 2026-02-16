@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.106.1
+@version        0.107.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -625,6 +625,21 @@ div#primary {
 section[data-ga-module="content-header"]>div.custom-background-image, div[data-spotim-module="default"],div[data-spotim-app="reactions"],ow-ads_conversation, footer, aside {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("lifewire.com") {
+html {
+    overflow: unset !important;
+    padding-bottom: 33rem;
+}
+
+footer, div.article-right-rail, div#top-stories_1-0, div#article-feedback_1-0, div#prefooter_1-0 {
+    display: none !important;
+}
+
+main {
+    margin-top: 2rem !important;
 }
 }
 
