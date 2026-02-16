@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.112.0
+@version        0.113.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1374,6 +1374,13 @@ code {
 #main {
     width: 100% !important;
     padding-bottom: 13rem;
+}
+}
+
+@-moz-document domain("xda-developers.com") {
+div.article-card.small, aside, footer {
+    display: none !important;
+    visibility: hidden !important;
 }
 }
 
