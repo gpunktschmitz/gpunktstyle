@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.116.0
+@version        0.117.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -392,6 +392,18 @@ div[id^="mailmunch-popover-"],div[id^="mailmunch-overlay-"] {
 div.signup-cta.alert.alert-info {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("fosslinux.com") {
+div#footer-section-container, div:has(>div>div.penci-ilrelated-posts), div.post-related, div.single-post-share, div.code-block:has(>pubtag[class^="ads"]), div#sidebar, div.header-social {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+div#main {
+    width: 100% !important;
+    margin-bottom: 23rem;
 }
 }
 
