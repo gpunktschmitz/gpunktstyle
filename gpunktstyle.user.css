@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.109.0
+@version        0.110.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -484,6 +484,13 @@ main>article {
 
 @-moz-document domain("goneo.de") {
 div#consent {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("haufe.de") {
+div.product-box,div.article-detail__main>section.box.box__list__dual, section.footer-newsletter-box, div#Ads_Billboard_container, div.sidebar-component, section:has(>section>section#Top-Themen), section:has(>section[id="Haufe Fachmagazine"]){
     display: none !important;
     visibility: hidden !important;
 }
