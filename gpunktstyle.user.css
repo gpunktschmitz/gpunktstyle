@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.113.0
+@version        0.113.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1392,7 +1392,11 @@ div[class^="src-signup_layer-layout"] {
 }
 
 @-moz-document domain("youtube.com") {
-.ytd-popup-container,ytd-rich-section-renderer,.ytd-feed-nudge-renderer {
+div#wrapper>div#contentContainer {
+    padding-top: 267px !important;
+}
+
+div#contentContainer>div#page-header-container>div#page-header-banner:has(>div#page-header-banner-sizer>yt-image-banner-view-model),.ytd-popup-container,ytd-rich-section-renderer,.ytd-feed-nudge-renderer {
     display: none !important;
     visibility: hidden !important;
 }
