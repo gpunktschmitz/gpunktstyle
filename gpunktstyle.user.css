@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.108.0
+@version        0.108.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -613,7 +613,7 @@ html {
 }
 
 @-moz-document domain("komoot.com") {
-header>ul>li>div:has(p), div.tw-bg-canvas>div.tw-bg-card, #banner_portal_container {
+a[aria-label="Updates"], div:has(>div>div>div>div>div>a[href^="/premium/buy"]), article:not(:has(>div>div>div>div>div>div>div>div>div.c-participants)), header>ul>li>div:has(p), div.tw-bg-canvas>div.tw-bg-card, #banner_portal_container {
     display: none !important;
     visibility: hidden !important;
 }
