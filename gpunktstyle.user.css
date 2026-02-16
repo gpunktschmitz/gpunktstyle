@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.111.3
+@version        0.112.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1272,6 +1272,17 @@ source: https://github.com/mastodon/mastodon/issues/20751#issuecomment-131532906
 section#preview>div.card {
     width: 50%;
     margin: auto;
+}
+}
+
+@-moz-document domain("w3schools.com") {
+div#right {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+div#main {
+    width: 100%;
 }
 }
 
