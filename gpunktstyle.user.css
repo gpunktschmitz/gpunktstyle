@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.115.0
+@version        0.116.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -378,6 +378,13 @@ article {
 .modal-backdrop.show {
     visibility: hidden !important;
     display: none !important;
+}
+}
+
+@-moz-document domain("finwiss.de") {
+div[id^="mailmunch-popover-"],div[id^="mailmunch-overlay-"] {
+    display: none !important;
+    visibility: hidden !important;
 }
 }
 
