@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.111.0
+@version        0.111.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1029,10 +1029,21 @@ aside.svSidebar>div>a[title="AI Suggestions"],aside.svSidebar>a[class^="upgrade"
     visibility: hidden;
 }
 }
+
 @-moz-document domain("raspberrytips.com") {
-div.ml-webforms-popup-overlay,iframe {
+div.ml-webforms-popup-overlay,iframe,div.code-block-11,div.code-block-13,footer,div.entry-related,nav.post-navigation,div.entry-author,div#dpsp-content-bottom,div.rmp-widgets-container,p.has-theme-palette-7-background-color,ul.wp-block-list:has(>li>a[data-type="post"]),div.code-block-16,div.code-block:has(>p>strong>a[href$="al=1"]),div.code-block:has(>div.ml_form),p.has-text-align-center,aside,div#dpsp-content-top {
     display: none !important;
     visibility: hidden !important;
+}
+
+body {
+    padding-bottom: 23rem;
+}
+
+@media screen and (min-width: 1025px) {
+    .has-sidebar .content-container {
+        display: block !important;
+    }
 }
 }
 
