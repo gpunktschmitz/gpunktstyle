@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.108.2
+@version        0.109.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -549,6 +549,22 @@ header {
     text-align: center;
     margin: 0 auto;
 }
+body {
+    margin-bottom: 23rem;
+}
+}
+
+@-moz-document domain("idera.com") {
+footer,p>a[target="twitter"],div.author-card-wrapper,div#main-content>div>div>div.et_pb_section:has(>div>div>div>div>h2>span#Related_Articles),div#main-content>div>div>div.et_pb_section:has(>div>div>div>div>h2>span#Ready_Join_100k_IDERA_Users),div#blog-details-3-col>div>div.et_pb_column_4_tb_body.et-last-child {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+div#blog-details-3-col>div>div.et_pb_column_3_tb_body {
+    width: 60%;
+}
+
+
 body {
     margin-bottom: 23rem;
 }
