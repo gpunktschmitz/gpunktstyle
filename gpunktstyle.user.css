@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.114.0
+@version        0.114.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -327,7 +327,7 @@ div.ReactModal__Overlay--after-open {
 }
 
 @-moz-document domain("duckduckgo.com") {
-div:has(>span[data-testid="feedback-prompt"]),div.react-feedback-prompt-mvc-wrapper,section[data-area="mainline"]>ol>div,div.header--aside__item, div[data-testid="serp-popover-promo"],div.text_promo.header--text_promo,div.zcm--right.js-zcm-right,p[class^="tagline_tagline"] {
+div[data-react-module-id="wikinlp"],div:has(>span[data-testid="feedback-prompt"]),div.react-feedback-prompt-mvc-wrapper,section[data-area="mainline"]>ol>div,div.header--aside__item, div[data-testid="serp-popover-promo"],div.text_promo.header--text_promo,div.zcm--right.js-zcm-right,p[class^="tagline_tagline"] {
     display: none !important;
     visibility: hidden !important;
 }
