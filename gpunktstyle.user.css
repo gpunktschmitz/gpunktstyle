@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.111.2
+@version        0.111.3
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1048,7 +1048,7 @@ body {
 }
 
 @-moz-document domain("reddit.com") {
-alert-controller {
+div#data-protection-consent-dialog, alert-controller {
     display: none !important;
     visibility: hidden !important;
 }
