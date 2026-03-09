@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.117.0
+@version        0.117.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -851,8 +851,8 @@ main {
 }
 }
 
-@-moz-document domain("outlook.office.com") {
-div.GSVDf {
+@-moz-document domain("outlook.live.com"), domain("outlook.office.com") {
+div.infoBarDivClass,div:has(>div>div>i[data-icon-name="OutlookLogo"]),div:has(>div>div>span>a[href="https://go.microsoft.com/fwlink/?linkid=2222646"]),div.GSVDf {
     display: none !important;
     visibility: hidden !important;
 }
