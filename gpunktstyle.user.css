@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.114.0
+@version        0.115.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -923,6 +923,17 @@ div.vi-gateway-container {
 }
 main {
     padding-bottom: 33rem;
+}
+}
+
+@-moz-document domain("office365itpros.com") {
+div.social, div#ez-toc-container, span.bsf-rt-reading-time, aside, footer, div#comments, div.postpagination, div#jp-relatedposts, div.wordads-tag, div.sharedaddy {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body {
+    margin-bottom: 23rem;
 }
 }
 
