@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.119.0
+@version        0.119.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -292,7 +292,7 @@ div[role="main"] {
 }
 
 @-moz-document domain("detect.fyi") {
-div:has(>div[modal="true"]) {
+div:has(>div[data-focus-lock-disabled="false"]>div[modal="true"]){
     visibility: hidden !important;
     display: none !important;
 }
