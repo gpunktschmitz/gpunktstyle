@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.120.0
+@version        0.120.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1152,12 +1152,17 @@ div.duet--article--article-body-component.w-full {
 div[class^="duet--article--image-group"],div.duet--article--article-body-component.w-full div.duet--media--content-warning {
     margin-right: 100px;
 }
-div.duet--media--embed, footer, button.duet--article--comments-button, section.duet--article--more-stories,div.duet--layout--rail,div.duet--recirculation--related-list, div.duet--article--lede > div > div.flex-col {
+div#zephr-overlay,div#zephr-zone-footer,div:has(>ul>li[id^="follow-author-article_footer-"]),div.duet--layout--header-pattern:has(>div>div.duet--content-cards--content-card),span:has(>a.duet--article--comments-link),div.duet--layout--article-recirc-color-container:has(div.duet--ad--native-ad-linkset),div.duet--media--embed, footer, button.duet--article--comments-button, section.duet--article--more-stories,div.duet--layout--rail,div.duet--recirculation--related-list, div.duet--article--lede > div > div.flex-col {
     display: none !important;
     visibility: hidden !important;
 }
+div#zephr-anchor {
+    max-width: 100%;
+}
 body {
     margin-bottom: 43rem;
+    overflow: visible !important;
+    position: unset !important;
 }
 }
 
