@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.118.0
+@version        0.119.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1055,6 +1055,16 @@ body.didomi-popup-open {
 iframe, div[id^="formillapopup-"], #formillaModalBackground {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("spiegel.de") {
+div[class*="print:hidden"], section[data-area="related_articles"] {
+    display: none !important;
+}
+
+main#Inhalt {
+    margin-bottom: 23rem;
 }
 }
 
