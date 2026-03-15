@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.112.3
+@version        0.113.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -581,6 +581,13 @@ div#consent {
 
 @-moz-document domain("haufe.de") {
 div.product-box,div.article-detail__main>section.box.box__list__dual, section.footer-newsletter-box, div#Ads_Billboard_container, div.sidebar-component, section:has(>section>section#Top-Themen), section:has(>section[id="Haufe Fachmagazine"]){
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("handelsblatt.com") {
+app-storyline-element.hmg-paywalled:has(>app-storyline-paragraph>app-rich-text>hmg-rich-text>div>p>a[data-content-access-category="NONE"]), footer, app-lazy-load-dynamic-component-list, iframe, app-storyline-related-topics, div.sticky-container>section.right, app-toolbar, div.top-ad-container, app-storyline-teaser {
     display: none !important;
     visibility: hidden !important;
 }
