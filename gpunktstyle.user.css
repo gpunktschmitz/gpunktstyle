@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.117.0
+@version        0.118.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1027,6 +1027,17 @@ main {
     margin: 0 0 23rem 9rem !important;
     width: 80% !important;
     max-width: 100% !important;
+}
+}
+
+@-moz-document domain("practical365.com") {
+div#floating-form,div#blog-detail-sticky,div.simple-social,footer,div.related-post-v2,section#comments,section#author-bio,div.q-blockads-content, div.q-blockads-inside-content {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body {
+    margin-bottom: 23rem;
 }
 }
 
