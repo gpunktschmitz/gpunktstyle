@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.112.0
+@version        0.112.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -210,6 +210,39 @@ body {
 }
 html.tve-so-hidden.tve-sl-open.tve-s-hide-overflow, body.tve-so-hidden.tve-sl-open.tve-s-hide-overflow {
     overflow: unset !important;
+}
+}
+
+@-moz-document domain("blog.pauby.com") {
+footer, aside, div.authorbox, div.giscus, nav.pager {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body {
+    margin-bottom: 23rem;
+}
+}
+
+@-moz-document domain("blog.workinghardinit.work") {
+footer, #comments, #jp-relatedposts, #secondary, div.sharedaddy, header#branding>a, #nav-single {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+#content {
+    width: 85%;
+    padding-bottom: 23rem;
+}
+
+#site-title a, #site-description {
+    color: white;
+}
+
+code {
+    background-color: lightgray;
+    color: black;
+    padding: 23px;
 }
 }
 
@@ -929,17 +962,6 @@ h1.or_confirmation__offersHeadline, div.or_confirmation__offersIframe, div:has(>
 }
 }
 
-@-moz-document domain("blog.pauby.com") {
-footer, aside, div.authorbox, div.giscus, nav.pager {
-    display: none !important;
-    visibility: hidden !important;
-}
-
-body {
-    margin-bottom: 23rem;
-}
-}
-
 @-moz-document domain("phoronix.com") {
 div[id^="_"] {
     display: none !important;
@@ -1409,28 +1431,6 @@ footer,#jp-post-flair,#comments-section,#actionbar,div.footer,div.post-cat-tags,
 }
 body {
     margin-bottom: 23rem;
-}
-}
-
-@-moz-document domain("blog.workinghardinit.work") {
-footer, #comments, #jp-relatedposts, #secondary, div.sharedaddy, header#branding>a, #nav-single {
-    display: none !important;
-    visibility: hidden !important;
-}
-
-#content {
-    width: 85%;
-    padding-bottom: 23rem;
-}
-
-#site-title a, #site-description {
-    color: white;
-}
-
-code {
-    background-color: lightgray;
-    color: black;
-    padding: 23px;
 }
 }
 
