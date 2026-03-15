@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.113.0
+@version        0.113.1
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -485,7 +485,7 @@ iframe {
 }
 
 @-moz-document domain("joshwcomeau.com") {
-#toasty-portal {
+#toasty-portal,div[data-status="peeking"],iframe {
     display: none !important;
     visibility: hidden !important;
 }
