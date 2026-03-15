@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.119.1
+@version        0.112.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -312,6 +312,18 @@ body.ReactModal__Body--open {
 div[data-testid="cookies-dialog"] {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("digital-cleaning.de") {
+footer, div#comments, div.related-posts, div.sidebar-right-wrap {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+div.main-container {
+    width: 100%;
+    margin-bottom: 23rem;
 }
 }
 
