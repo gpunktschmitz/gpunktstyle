@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.116.0
+@version        0.117.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1014,6 +1014,19 @@ div.ct-content {
 div[id^="elementor-popup-modal-"] {
     display: none;
     visibility: hidden;
+}
+}
+
+@-moz-document domain("powershellisfun.com") {
+nav.post-navigation,div#comments,div.entry-footer,div.entry-author-wrapper,section._social-share-container,div.jp-relatedposts, div#secondary {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+main {
+    margin: 0 0 23rem 9rem !important;
+    width: 80% !important;
+    max-width: 100% !important;
 }
 }
 
