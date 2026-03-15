@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.117.1
+@version        0.118.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -902,6 +902,17 @@ div#FlexPane_Overflow_Container:has(div#FlexPane_OwaDiagFeedback) div {
 h1.or_confirmation__offersHeadline, div.or_confirmation__offersIframe, div:has(>a>article.pl_promo-card), div.or_confirmation__offersBanner {
     display: none !important;
     visibility: hidden !important;
+}
+}
+
+@-moz-document domain("blog.pauby.com") {
+footer, aside, div.authorbox, div.giscus, nav.pager {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+body {
+    margin-bottom: 23rem;
 }
 }
 
