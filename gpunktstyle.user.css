@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.115.0
+@version        0.116.0
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -1124,6 +1124,13 @@ footer {
 
 @-moz-document domain("paypal.com") {
 div[id^="CoachTip"],section#pay-later,div[class^="GiveAtCheckout"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+}
+
+@-moz-document domain("pcgamer.com") {
+div.flexisites-social, #slice-container-trendingbar, #utility-bar, footer, div[id^="slice-container-authorBio-"], div[id^="slice-container-newsletterForm-articleInbodyContent-"], aside, #popular-data, #slice-container-newsletterForm-exitIntent {
     display: none !important;
     visibility: hidden !important;
 }
