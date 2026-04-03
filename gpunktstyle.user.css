@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           gpunktstyle
-@version        0.120.1
+@version        0.120.2
 @namespace      https://github.com/gpunktschmitz
 @preprocessor   stylus
 @description    My style for the www
@@ -639,13 +639,13 @@ html {
 }
 
 @-moz-document domain("howtogeek.com") {
-footer,aside,div.affiliate-sponsored,div.nav-right,.related-single  {
+div.article-header-data, div.article-card, div:has(>div>div>div>a[rel="noopener noreferrer nofollow sponsored"]), div.w-promotion-offer, div:has(>a[href="https://www.howtogeek.com/page/newsletter/"]),footer,aside,div.affiliate-sponsored,div.nav-right,.related-single  {
     display: none !important;
     visibility: hidden !important;
 }
 #article-body {
     width: 100%;
-    grid-column: 1/span 2;
+    grid-column: 2/span 2;
     grid-template-columns: 1fr auto;
 }
 header {
